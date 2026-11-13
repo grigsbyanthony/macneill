@@ -1,0 +1,11 @@
+#nexus
+begin sets;
+  charset PB2 = 1-2280;
+  charset PB1 = 2281-4554;
+  charset PA = 4555-6705;
+  charset HA = 6706-8409;
+  charset NP = 8410-9906;
+  charset NA = 9907-11316;
+  charset M = 11317-12298;
+  charset NS = 12299-13136;
+end;

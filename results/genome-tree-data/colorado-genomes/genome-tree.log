@@ -1,0 +1,759 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Anthonys-MacBook-Pro-97.local (SSE4.2, 18 GB RAM)
+Command: /opt/homebrew/Caskroom/miniforge/base/envs/blaire-phylo/bin/iqtree3 -s /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/supermatrix.fasta -p /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/supermatrix-partitions.nex --prefix /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree --seqtype DNA -m GTR+F+I+G4 -B 1000 --alrt 1000 -T AUTO --seed 12345 --redo
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 13 09:56:46 2026
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/supermatrix-partitions.nex ...
+Partition file is in NEXUS format...
+Reading alignment file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.049602 secs using 90.37% CPU
+NOTE: Change sequence name 'A/Snow Goose/CO/23-039475-003-original/2023' -> A/Snow_Goose/CO/23-039475-003-original/2023
+NOTE: Change sequence name 'A/Snow Goose/CO/24-036616-001-original-repeat2/2024' -> A/Snow_Goose/CO/24-036616-001-original-repeat2/2024
+NOTE: Change sequence name 'A/Snow Goose/CO/24-037874-001-original/2024' -> A/Snow_Goose/CO/24-037874-001-original/2024
+NOTE: Change sequence name 'A/Snow Goose/CO/24-037874-002-original/2024' -> A/Snow_Goose/CO/24-037874-002-original/2024
+NOTE: Change sequence name 'A/Snow Goose/CO/24-038748-001-original/2024' -> A/Snow_Goose/CO/24-038748-001-original/2024
+NOTE: Change sequence name 'A/Snow Goose/CO/25-000365-002-original/2024' -> A/Snow_Goose/CO/25-000365-002-original/2024
+NOTE: Change sequence name 'A/Turkey Vulture/CO/25-004663-001-original/2025' -> A/Turkey_Vulture/CO/25-004663-001-original/2025
+NOTE: Change sequence name 'A/Peregrine Falcon/CO/24-036319-001-original/2024' -> A/Peregrine_Falcon/CO/24-036319-001-original/2024
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/24-036851-001-original/2024' -> A/Red-tailed_Hawk/CO/24-036851-001-original/2024
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/24-037418-001-original/2024' -> A/Red-tailed_Hawk/CO/24-037418-001-original/2024
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/24-038833-001-original/2024' -> A/Red-tailed_Hawk/CO/24-038833-001-original/2024
+NOTE: Change sequence name 'A/Great horned Owl/CO/24-037875-001-original/2024' -> A/Great_horned_Owl/CO/24-037875-001-original/2024
+NOTE: Change sequence name 'A/Golden Eagle/CO/25-010611-001-original/2024' -> A/Golden_Eagle/CO/25-010611-001-original/2024
+NOTE: Change sequence name 'A/Peregrine Falcon/CO/25-019366-001-original/2024' -> A/Peregrine_Falcon/CO/25-019366-001-original/2024
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-004838-001-original/2025' -> A/Red-tailed_Hawk/CO/25-004838-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-000847-001-original/2025' -> A/Canada_Goose/CO/25-000847-001-original/2025
+NOTE: Change sequence name 'A/Cackling Goose/CO/25-000848-001-original/2025' -> A/Cackling_Goose/CO/25-000848-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-003686-001-original/2025' -> A/Canada_Goose/CO/25-003686-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-003832-001-original/2025' -> A/Canada_Goose/CO/25-003832-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004662-001-original/2025' -> A/Canada_Goose/CO/25-004662-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004659-001-original/2025' -> A/Canada_Goose/CO/25-004659-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004839-001-original/2025' -> A/Canada_Goose/CO/25-004839-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004839-002-original/2025' -> A/Canada_Goose/CO/25-004839-002-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004839-003-original/2025' -> A/Canada_Goose/CO/25-004839-003-original/2025
+NOTE: Change sequence name 'A/Snow Goose/CO/23-037467-001-original/2023' -> A/Snow_Goose/CO/23-037467-001-original/2023
+NOTE: Change sequence name 'A/Canada Goose/CO/23-037246-001-original/2023' -> A/Canada_Goose/CO/23-037246-001-original/2023
+NOTE: Change sequence name 'A/Snow Goose/CO/23-039141-001-original/2023' -> A/Snow_Goose/CO/23-039141-001-original/2023
+NOTE: Change sequence name 'A/Snow Goose/CO/23-039137-001-original/2023' -> A/Snow_Goose/CO/23-039137-001-original/2023
+NOTE: Change sequence name 'A/Great horned Owl/CO/23-039247-001-original/2023' -> A/Great_horned_Owl/CO/23-039247-001-original/2023
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/23-039249-001-original/2023' -> A/Red-tailed_Hawk/CO/23-039249-001-original/2023
+NOTE: Change sequence name 'A/Mallard Duck/CO/23-040385-001-original/2023' -> A/Mallard_Duck/CO/23-040385-001-original/2023
+NOTE: Change sequence name 'A/American Wigeon/CO/23-034259-003-original/2023' -> A/American_Wigeon/CO/23-034259-003-original/2023
+NOTE: Change sequence name 'A/Canada Goose/CO/23-035011-001-original/2023' -> A/Canada_Goose/CO/23-035011-001-original/2023
+NOTE: Change sequence name 'A/Cackling Goose/CO/23-035121-001-original/2023' -> A/Cackling_Goose/CO/23-035121-001-original/2023
+NOTE: Change sequence name 'A/Canada Goose/CO/23-035698-001-original/2023' -> A/Canada_Goose/CO/23-035698-001-original/2023
+NOTE: Change sequence name 'A/Cackling Goose/CO/23-036794-001-original/2023' -> A/Cackling_Goose/CO/23-036794-001-original/2023
+NOTE: Change sequence name 'A/Cackling Goose/CO/23-036794-002-original/2023' -> A/Cackling_Goose/CO/23-036794-002-original/2023
+NOTE: Change sequence name 'A/Cackling Goose/CO/23-036899-001-original/2023' -> A/Cackling_Goose/CO/23-036899-001-original/2023
+NOTE: Change sequence name 'A/Canada Goose/CO/23-037674-001-original/2023' -> A/Canada_Goose/CO/23-037674-001-original/2023
+NOTE: Change sequence name 'A/Great horned Owl/CO/23-037676-001-original/2023' -> A/Great_horned_Owl/CO/23-037676-001-original/2023
+NOTE: Change sequence name 'A/Common Raven/CO/23-037854-001-original/2023' -> A/Common_Raven/CO/23-037854-001-original/2023
+NOTE: Change sequence name 'A/Great horned Owl/CO/23-039139-001-original/2023' -> A/Great_horned_Owl/CO/23-039139-001-original/2023
+NOTE: Change sequence name 'A/Great horned Owl/CO/23-040350-001-original/2023' -> A/Great_horned_Owl/CO/23-040350-001-original/2023
+NOTE: Change sequence name 'A/Great horned Owl/CO/23-040513-001-original/2023' -> A/Great_horned_Owl/CO/23-040513-001-original/2023
+NOTE: Change sequence name 'A/Mallard Duck/CO/24-003181-003-original/2024' -> A/Mallard_Duck/CO/24-003181-003-original/2024
+NOTE: Change sequence name 'A/Great horned Owl/CO/24-036617-001-original-repeat3/2024' -> A/Great_horned_Owl/CO/24-036617-001-original-repeat3/2024
+NOTE: Change sequence name 'A/Great horned Owl/CO/24-035673-001-original/2024' -> A/Great_horned_Owl/CO/24-035673-001-original/2024
+NOTE: Change sequence name 'A/Great horned Owl/CO/24-036855-001-original/2024' -> A/Great_horned_Owl/CO/24-036855-001-original/2024
+NOTE: Change sequence name 'A/Ring-necked Duck/CO/24-036854-001-original/2024' -> A/Ring-necked_Duck/CO/24-036854-001-original/2024
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-007026-001-original/2025' -> A/Great_Horned_Owl/CO/25-007026-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-004081-001-original/2025' -> A/Red-tailed_Hawk/CO/25-004081-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-004536-001-original/2025' -> A/Great_Horned_Owl/CO/25-004536-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-004539-001-original/2025' -> A/Red-tailed_Hawk/CO/25-004539-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-004961-001-original/2025' -> A/Canada_Goose/CO/25-004961-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-004841-001-original/2025' -> A/Great_Horned_Owl/CO/25-004841-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-005220-001-original/2025' -> A/Canada_Goose/CO/25-005220-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-004960-001-original/2025' -> A/Red-tailed_Hawk/CO/25-004960-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-005218-001-original/2025' -> A/Red-tailed_Hawk/CO/25-005218-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-006283-001-original/2025' -> A/Canada_Goose/CO/25-006283-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-006282-001-original/2025' -> A/Red-tailed_Hawk/CO/25-006282-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-006740-001-original/2025' -> A/Great_Horned_Owl/CO/25-006740-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-006998-001-original/2025' -> A/Great_Horned_Owl/CO/25-006998-001-original/2025
+NOTE: Change sequence name 'A/Cackling Goose/CO/25-007029-001-original/2025' -> A/Cackling_Goose/CO/25-007029-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-007031-001-original/2025' -> A/Great_Horned_Owl/CO/25-007031-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-007671-001-original/2025' -> A/Red-tailed_Hawk/CO/25-007671-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-007665-001-original/2025' -> A/Great_Horned_Owl/CO/25-007665-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-007993-001-original/2025' -> A/Red-tailed_Hawk/CO/25-007993-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-008905-001-original/2025' -> A/Red-tailed_Hawk/CO/25-008905-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-010613-001-original/2025' -> A/Red-tailed_Hawk/CO/25-010613-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-010964-001-original/2025' -> A/Red-tailed_Hawk/CO/25-010964-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-010882-001-original/2025' -> A/Red-tailed_Hawk/CO/25-010882-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-011104-001-original/2025' -> A/Red-tailed_Hawk/CO/25-011104-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-019366-002-original/2025' -> A/Red-tailed_Hawk/CO/25-019366-002-original/2025
+NOTE: Change sequence name 'A/Sharp-shinned Hawk/CO/25-013219-001-original/2025' -> A/Sharp-shinned_Hawk/CO/25-013219-001-original/2025
+NOTE: Change sequence name 'A/Turkey Vulture/CO/25-013659-001-original/2025' -> A/Turkey_Vulture/CO/25-013659-001-original/2025
+NOTE: Change sequence name 'A/Canada Goose/CO/25-001845-001-original/2025' -> A/Canada_Goose/CO/25-001845-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-002313-001-original/2025' -> A/Great_Horned_Owl/CO/25-002313-001-original/2025
+NOTE: Change sequence name 'A/Cackling Goose/CO/25-002314-001-original/2025' -> A/Cackling_Goose/CO/25-002314-001-original/2025
+NOTE: Change sequence name 'A/Great Horned Owl/CO/25-002987-001-original/2025' -> A/Great_Horned_Owl/CO/25-002987-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-002984-001-original/2025' -> A/Red-tailed_Hawk/CO/25-002984-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-003477-001-original/2025' -> A/Red-tailed_Hawk/CO/25-003477-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-003294-001-original/2025' -> A/Red-tailed_Hawk/CO/25-003294-001-original/2025
+NOTE: Change sequence name 'A/Red-tailed Hawk/CO/25-003478-001-original/2025' -> A/Red-tailed_Hawk/CO/25-003478-001-original/2025
+NOTE: Change sequence name 'A/Snow Goose/CO/24-007706-001-original/2024' -> A/Snow_Goose/CO/24-007706-001-original/2024
+NOTE: Change sequence name 'A/Eurasian Collared Dove/CO/24-021011-001-original/2024' -> A/Eurasian_Collared_Dove/CO/24-021011-001-original/2024
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.024745 secs using 88.25% CPU
+Alignment has 409 sequences with 13136 columns, 1605 distinct patterns
+2112 parsimony-informative, 760 singleton sites, 10264 constant sites
+                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000242949 secs using 644.6% CPU
+   1  A/Lion/CO/24-038267-001-original/2024                        0.00%    passed     99.97%
+   2  A/Cattle/Colorado/24-012225-001-original/2024                0.00%    passed     99.95%
+   3  A/Cattle/Colorado/24-012225-014-original/2024                0.00%    passed     99.95%
+   4  A/Cattle/Colorado/24-012225-019-original/2024                0.00%    passed     99.97%
+   5  A/Cattle/Colorado/24-012225-023-original/2024                0.00%    passed     99.97%
+   6  A/Cattle/Colorado/24-012225-029-original/2024                0.00%    passed     99.97%
+   7  A/Cattle/Colorado/24-012225-033-original/2024                0.00%    passed     99.95%
+   8  A/Cattle/Colorado/24-012346-001-original/2024                0.00%    passed     99.94%
+   9  A/Cattle/Colorado/24-012346-005-original/2024                0.00%    passed     99.89%
+  10  A/Cattle/Colorado/24-012346-009-original/2024                0.00%    passed     99.85%
+  11  A/Cattle/Colorado/24-012346-013-original/2024                0.00%    passed     99.86%
+  12  A/Cattle/Colorado/24-012346-017-original/2024                0.00%    passed     99.91%
+  13  A/Cattle/Colorado/24-012346-021-original/2024                0.00%    passed     99.89%
+  14  A/Cattle/Colorado/24-014901-001-original/2024                0.00%    passed     99.95%
+  15  A/Cattle/Colorado/24-014901-002-original/2024                0.00%    passed     99.95%
+  16  A/Cattle/Colorado/24-014901-003-original/2024                0.00%    passed     99.95%
+  17  A/Cattle/Colorado/24-014901-005-original/2024                0.00%    passed     99.97%
+  18  A/Cattle/Colorado/24-014901-007-original/2024                0.00%    passed     99.95%
+  19  A/Cattle/Colorado/24-014901-008-original/2024                0.00%    passed     99.95%
+  20  A/Cattle/Colorado/24-014901-009-original/2024                0.00%    passed     99.99%
+  21  A/cattle/CO/24-016671-005-original/2024                      0.00%    passed     99.96%
+  22  A/cattle/CO/24-017048-001-original/2024                      0.00%    passed     99.99%
+  23  A/cattle/CO/24-017048-003-original/2024                      0.00%    passed     99.99%
+  24  A/cattle/CO/24-017048-005-original/2024                      0.00%    passed     99.95%
+  25  A/cattle/CO/24-017048-007-original/2024                      0.00%    passed     99.98%
+  26  A/cattle/CO/24-017048-009-original/2024                      0.00%    passed     99.96%
+  27  A/cattle/CO/24-017148-001-original/2024                      0.00%    passed     99.96%
+  28  A/cattle/CO/24-017148-003-original/2024                      0.00%    passed     99.99%
+  29  A/cattle/CO/24-017148-005-original/2024                      0.00%    passed     99.96%
+  30  A/cattle/CO/24-017148-007-original/2024                      0.00%    passed     99.96%
+  31  A/cattle/CO/24-017148-009-original/2024                      0.00%    passed     99.95%
+  32  A/cattle/CO/24-017152-001-original/2024                      0.00%    passed     99.95%
+  33  A/cattle/CO/24-017152-003-original/2024                      0.00%    passed     99.95%
+  34  A/cattle/CO/24-017152-008-original/2024                      0.00%    passed     99.97%
+  35  A/cattle/CO/24-017152-010-original/2024                      0.00%    passed     99.97%
+  36  A/cattle/CO/24-017152-014-original/2024                      0.00%    passed     99.95%
+  37  A/cattle/CO/24-017152-016-original/2024                      0.00%    passed     99.95%
+  38  A/cattle/CO/24-017152-018-original/2024                      0.00%    passed     99.95%
+  39  A/cattle/CO/24-017152-021-original/2024                      0.00%    passed     99.95%
+  40  A/cattle/CO/24-017152-023-original/2024                      0.00%    passed     99.97%
+  41  A/cattle/CO/24-017153-009-original/2024                      0.00%    passed     99.99%
+  42  A/cattle/CO/24-017153-011-original/2024                      0.00%    passed     99.93%
+  43  A/cattle/CO/24-017153-014-original/2024                      0.00%    passed     99.97%
+  44  A/cattle/CO/24-017154-001-original/2024                      0.00%    passed     99.92%
+  45  A/cattle/CO/24-017154-003-original/2024                      0.00%    passed     99.98%
+  46  A/cattle/CO/24-017154-004-original/2024                      0.00%    passed     99.98%
+  47  A/cattle/CO/24-017154-006-original/2024                      0.00%    passed     99.90%
+  48  A/cattle/CO/24-017154-008-original/2024                      0.00%    passed     99.97%
+  49  A/cattle/CO/24-017154-010-original/2024                      0.00%    passed     99.97%
+  50  A/cattle/CO/24-017660-003-original/2024                      0.00%    passed     99.97%
+  51  A/cattle/CO/24-017660-005-original/2024                      0.00%    passed     99.97%
+  52  A/cattle/CO/24-017662-002-original/2024                      0.00%    passed     99.97%
+  53  A/cattle/CO/24-017662-005-original/2024                      0.00%    passed     99.91%
+  54  A/cattle/CO/24-017662-006-original/2024                      0.00%    passed     99.97%
+  55  A/cattle/CO/24-017662-008-original/2024                      0.00%    passed     99.97%
+  56  A/cattle/CO/24-017662-011-original/2024                      0.00%    passed     99.97%
+  57  A/cattle/CO/24-017662-013-original/2024                      0.00%    passed     99.90%
+  58  A/cattle/CO/24-017662-014-original/2024                      0.00%    passed     99.97%
+  59  A/cattle/CO/24-017811-003-original/2024                      0.00%    passed    100.00%
+  60  A/cattle/CO/24-017811-005-original/2024                      0.00%    passed     99.97%
+  61  A/cattle/CO/24-018025-001-original/2024                      0.00%    passed     99.97%
+  62  A/cattle/CO/24-018027-005-original/2024                      0.00%    passed     99.93%
+  63  A/cattle/CO/24-018028-003-original/2024                      0.00%    passed    100.00%
+  64  A/cattle/CO/24-018028-006-original/2024                      0.00%    passed    100.00%
+  65  A/cattle/CO/24-018028-008-original/2024                      0.00%    passed    100.00%
+  66  A/cattle/CO/24-018028-011-original/2024                      0.00%    passed    100.00%
+  67  A/cattle/CO/24-018028-013-original/2024                      0.00%    passed     99.99%
+  68  A/cattle/CO/24-018028-015-original/2024                      0.00%    passed     99.99%
+  69  A/cattle/CO/24-018028-019-original/2024                      0.00%    passed    100.00%
+  70  A/cattle/CO/24-018029-001-original/2024                      0.00%    passed     99.95%
+  71  A/cattle/CO/24-018029-004-original/2024                      0.00%    passed     99.92%
+  72  A/cattle/CO/24-018029-005-original/2024                      0.00%    passed     99.90%
+  73  A/cattle/CO/24-018029-006-original/2024                      0.00%    passed     99.87%
+  74  A/cattle/CO/24-018030-001-original/2024                      0.00%    passed     99.95%
+  75  A/cattle/CO/24-018030-002-original/2024                      0.00%    passed     99.94%
+  76  A/cattle/CO/24-018030-004-original/2024                      0.00%    passed     99.85%
+  77  A/cattle/CO/24-018030-005-original/2024                      0.00%    passed     99.95%
+  78  A/cattle/CO/24-018149-003-original/2024                      0.00%    passed     99.96%
+  79  A/cattle/CO/24-018149-004-original/2024                      0.00%    passed     99.98%
+  80  A/cattle/CO/24-018151-001-original/2024                      0.00%    passed     99.99%
+  81  A/cattle/CO/24-018151-003-original/2024                      0.00%    passed    100.00%
+  82  A/cattle/CO/24-018151-004-original/2024                      0.00%    passed    100.00%
+  83  A/cattle/CO/24-018151-005-original/2024                      0.00%    passed    100.00%
+  84  A/cattle/CO/24-018151-006-original/2024                      0.00%    passed    100.00%
+  85  A/cattle/CO/24-018334-001-original/2024                      0.00%    passed     99.98%
+  86  A/cattle/CO/24-018334-003-original/2024                      0.00%    passed     99.97%
+  87  A/cattle/CO/24-018334-004-original/2024                      0.00%    passed     99.98%
+  88  A/cattle/CO/24-018334-005-original/2024                      0.00%    passed     99.99%
+  89  A/cattle/CO/24-018334-006-original/2024                      0.00%    passed     99.99%
+  90  A/cattle/CO/24-018334-007-original/2024                      0.00%    passed     99.99%
+  91  A/cattle/CO/24-018334-008-original/2024                      0.00%    passed     99.99%
+  92  A/cattle/CO/24-018334-009-original/2024                      0.00%    passed     99.98%
+  93  A/cattle/CO/24-018334-010-original/2024                      0.00%    passed     99.97%
+  94  A/cattle/CO/24-018336-001-original/2024                      0.00%    passed     99.98%
+  95  A/cattle/CO/24-018336-002-original/2024                      0.00%    passed     99.98%
+  96  A/cattle/CO/24-018336-003-original/2024                      0.00%    passed     99.99%
+  97  A/cattle/CO/24-018336-004-original/2024                      0.00%    passed     99.98%
+  98  A/cattle/CO/24-018336-008-original/2024                      0.00%    passed     99.94%
+  99  A/cattle/CO/24-018336-009-original/2024                      0.00%    passed     99.88%
+ 100  A/cattle/CO/24-018336-010-original/2024                      0.00%    passed     99.87%
+ 101  A/cattle/CO/24-018336-012-original/2024                      0.00%    passed     99.97%
+ 102  A/cattle/CO/24-018637-001-original/2024                      0.00%    passed    100.00%
+ 103  A/cattle/CO/24-018766-001-original/2024                      0.00%    passed     99.92%
+ 104  A/cattle/CO/24-018766-003-original/2024                      0.00%    passed     99.87%
+ 105  A/cattle/CO/24-018766-007-original/2024                      0.00%    passed     99.92%
+ 106  A/cattle/CO/24-018771-001-original/2024                      0.00%    passed     99.95%
+ 107  A/cattle/CO/24-018771-003-original/2024                      0.46%    passed     99.80%
+ 108  A/cattle/CO/24-018772-009-original/2024                      0.00%    passed     99.98%
+ 109  A/cattle/CO/24-018772-013-original/2024                      0.00%    passed     99.98%
+ 110  A/cattle/CO/24-018871-001-original/2024                      0.00%    passed     99.95%
+ 111  A/cattle/CO/24-018871-002-original/2024                      0.00%    passed     99.97%
+ 112  A/cattle/CO/24-018871-003-original/2024                      0.00%    passed     99.98%
+ 113  A/cattle/CO/24-018871-004-original/2024                      0.00%    passed     99.95%
+ 114  A/cattle/CO/24-018871-005-original/2024                      0.00%    passed     99.97%
+ 115  A/cattle/CO/24-019381-001-original/2024                      0.00%    passed     99.99%
+ 116  A/cattle/CO/24-019381-002-original/2024                      0.00%    passed    100.00%
+ 117  A/cattle/CO/24-019381-003-original/2024                      0.00%    passed    100.00%
+ 118  A/cattle/CO/24-019381-004-original/2024                      0.00%    passed     99.99%
+ 119  A/cattle/CO/24-019381-005-original/2024                      0.00%    passed     99.99%
+ 120  A/cattle/CO/24-019381-006-original/2024                      0.00%    passed     99.99%
+ 121  A/cattle/CO/24-019381-007-original/2024                      0.00%    passed    100.00%
+ 122  A/cattle/CO/24-019381-012-original/2024                      0.00%    passed     99.95%
+ 123  A/cattle/CO/24-019381-013-original/2024                      0.00%    passed     99.97%
+ 124  A/cattle/CO/24-019381-015-original/2024                      0.00%    passed     99.95%
+ 125  A/cattle/CO/24-019381-016-original/2024                      0.00%    passed     99.95%
+ 126  A/cattle/CO/24-019601-002-original/2024                      0.00%    passed     99.99%
+ 127  A/cattle/CO/24-019691-001-original/2024                      0.00%    passed     99.97%
+ 128  A/cattle/CO/24-019691-003-original/2024                      0.00%    passed     99.98%
+ 129  A/cattle/CO/24-019691-004-original/2024                      0.00%    passed     99.98%
+ 130  A/cattle/CO/24-019691-005-original/2024                      0.00%    passed     99.97%
+ 131  A/cattle/CO/24-019691-007-original/2024                      0.00%    passed     99.99%
+ 132  A/cattle/CO/24-019691-009-original/2024                      0.00%    passed     99.99%
+ 133  A/cattle/CO/24-019691-010-original/2024                      0.00%    passed     99.97%
+ 134  A/cattle/CO/24-019691-011-original/2024                      0.00%    passed     99.97%
+ 135  A/cattle/CO/24-019691-012-original/2024                      0.00%    passed     99.99%
+ 136  A/cattle/CO/24-019691-013-original/2024                      0.00%    passed     99.98%
+ 137  A/cattle/CO/24-019691-014-original/2024                      0.00%    passed     99.98%
+ 138  A/cattle/CO/24-019693-004-original/2024                      0.00%    passed     99.97%
+ 139  A/cattle/CO/24-019693-005-original/2024                      0.00%    passed     99.98%
+ 140  A/cattle/CO/24-019693-006-original/2024                      0.00%    passed     99.98%
+ 141  A/cattle/CO/24-019693-007-original/2024                      0.00%    passed     99.97%
+ 142  A/cattle/CO/24-019693-008-original/2024                      0.00%    passed     99.98%
+ 143  A/cattle/CO/24-019693-010-original/2024                      0.00%    passed    100.00%
+ 144  A/cattle/CO/24-019694-001-original/2024                      0.00%    passed    100.00%
+ 145  A/cattle/CO/24-019694-002-original/2024                      0.00%    passed     99.90%
+ 146  A/cattle/CO/24-019694-003-original/2024                      0.00%    passed     99.93%
+ 147  A/cattle/CO/24-020027-001-original/2024                      0.00%    passed     99.90%
+ 148  A/cattle/CO/24-020027-002-original/2024                      0.00%    passed     99.91%
+ 149  A/cattle/CO/24-020027-005-original/2024                      0.00%    passed     99.97%
+ 150  A/cattle/CO/24-020027-006-original/2024                      0.00%    passed     99.95%
+ 151  A/cattle/CO/24-020027-007-original/2024                      0.00%    passed     99.97%
+ 152  A/cattle/CO/24-020172-001-original/2024                      0.00%    passed     99.95%
+ 153  A/cattle/CO/24-020172-002-original/2024                      0.00%    passed     99.96%
+ 154  A/cattle/CO/24-020175-001-original/2024                      0.00%    passed     99.97%
+ 155  A/cattle/CO/24-020175-002-original/2024                      0.00%    passed     99.97%
+ 156  A/cattle/CO/24-020175-004-original/2024                      0.00%    passed     99.96%
+ 157  A/cattle/CO/24-020176-001-original/2024                      0.00%    passed     99.97%
+ 158  A/cattle/CO/24-020176-003-original/2024                      0.00%    passed     99.98%
+ 159  A/cattle/CO/24-020176-005-original/2024                      0.00%    passed     99.97%
+ 160  A/cattle/CO/24-020176-006-original/2024                      0.00%    passed     99.99%
+ 161  A/cattle/CO/24-020284-001-original/2024                      0.00%    passed     99.71%
+ 162  A/cattle/CO/24-020284-002-original/2024                      0.00%    passed     99.95%
+ 163  A/cattle/CO/24-020284-004-original/2024                      0.00%    passed     99.93%
+ 164  A/cattle/CO/24-020284-005-original/2024                      0.00%    passed     99.98%
+ 165  A/cattle/CO/24-020284-006-original/2024                      0.00%    passed     99.94%
+ 166  A/cattle/CO/24-020284-008-original/2024                      0.00%    passed     99.95%
+ 167  A/cattle/CO/24-020284-009-original/2024                      0.00%    passed     99.95%
+ 168  A/cattle/CO/24-020284-010-original/2024                      0.00%    passed     99.90%
+ 169  A/cattle/CO/24-020284-011-original/2024                      0.00%    passed     99.94%
+ 170  A/cattle/CO/24-020510-001-original/2024                      0.00%    passed     99.97%
+ 171  A/cattle/CO/24-020510-002-original/2024                      0.00%    passed     99.95%
+ 172  A/cattle/CO/24-020510-003-original/2024                      0.00%    passed     99.97%
+ 173  A/cattle/CO/24-020712-001-original/2024                      0.00%    passed     99.97%
+ 174  A/cattle/CO/24-020712-002-original/2024                      0.00%    passed     99.88%
+ 175  A/cattle/CO/24-020712-003-original/2024                      0.00%    passed     99.98%
+ 176  A/cattle/CO/24-020712-004-original/2024                      0.00%    passed     99.92%
+ 177  A/cattle/CO/24-020712-005-original/2024                      0.00%    passed     99.98%
+ 178  A/cattle/CO/24-020712-006-original/2024                      0.00%    passed     99.97%
+ 179  A/cattle/CO/24-020712-008-original/2024                      0.00%    passed     99.92%
+ 180  A/cattle/CO/24-020712-009-original/2024                      0.00%    passed     99.95%
+ 181  A/cattle/CO/24-020715-003-original/2024                      0.00%    passed     99.73%
+ 182  A/cattle/CO/24-020715-006-original/2024                      0.00%    passed     99.78%
+ 183  A/cattle/CO/24-020715-007-original/2024                      0.00%    passed     99.97%
+ 184  A/cattle/CO/24-020797-002-original/2024                      0.00%    passed     99.95%
+ 185  A/cattle/CO/24-020797-003-original/2024                      0.00%    passed     99.96%
+ 186  A/cattle/CO/24-020797-004-original/2024                      0.00%    passed     99.95%
+ 187  A/cattle/CO/24-020797-005-original/2024                      0.00%    passed     99.96%
+ 188  A/cattle/CO/24-020797-006-original/2024                      0.00%    passed     99.83%
+ 189  A/cattle/CO/24-020797-007-original/2024                      0.00%    passed     99.93%
+ 190  A/cattle/CO/24-020797-008-original/2024                      0.00%    passed     99.97%
+ 191  A/cattle/CO/24-020797-009-original/2024                      0.00%    passed     99.95%
+ 192  A/cattle/CO/24-020797-010-original/2024                      0.00%    passed     99.97%
+ 193  A/cattle/CO/24-020797-011-original/2024                      0.00%    passed     99.97%
+ 194  A/cattle/CO/24-020797-012-original/2024                      0.00%    passed     99.95%
+ 195  A/cattle/CO/24-020797-013-original/2024                      0.00%    passed     99.95%
+ 196  A/cattle/CO/24-020797-014-original/2024                      0.00%    passed     99.95%
+ 197  A/cattle/CO/24-020797-015-original/2024                      0.00%    passed     99.95%
+ 198  A/cattle/CO/24-020940-001-original/2024                      0.00%    passed     99.96%
+ 199  A/cattle/CO/24-020940-002-original/2024                      0.00%    passed     99.93%
+ 200  A/cattle/CO/24-020940-003-original/2024                      0.00%    passed     99.98%
+ 201  A/cattle/CO/24-020940-004-original/2024                      0.00%    passed     99.97%
+ 202  A/cattle/CO/24-020940-005-original/2024                      0.00%    passed     99.95%
+ 203  A/cattle/CO/24-020940-006-original/2024                      0.00%    passed     99.94%
+ 204  A/cattle/CO/24-020940-007-original/2024                      0.00%    passed     99.95%
+ 205  A/cattle/CO/24-020941-001-original/2024                      0.00%    passed     99.93%
+ 206  A/cattle/CO/24-020941-002-original/2024                      0.00%    passed     99.99%
+ 207  A/cattle/CO/24-022165-001-original/2024                      0.00%    passed     99.97%
+ 208  A/cattle/CO/24-022171-001-original/2024                      0.00%    passed     99.90%
+ 209  A/cattle/CO/24-022172-001-original/2024                      0.00%    passed     99.97%
+ 210  A/cattle/CO/24-022173-001-original/2024                      0.00%    passed     99.98%
+ 211  A/cattle/CO/24-022176-001-original/2024                      0.00%    passed     99.88%
+ 212  A/cattle/CO/24-022177-001-original/2024                      0.00%    passed     99.92%
+ 213  A/cattle/CO/24-022179-001-original/2024                      0.00%    passed     99.88%
+ 214  A/cattle/CO/24-022860-001-original/2024                      0.00%    passed     99.95%
+ 215  A/cattle/CO/24-023561-001-original-repeat2/2024              0.00%    passed     99.93%
+ 216  A/cattle/CO/24-023564-001-original-repeat2/2024              0.00%    passed     99.97%
+ 217  A/cattle/CO/24-023570-001-original-repeat2/2024              0.00%    passed     99.75%
+ 218  A/cattle/CO/24-023571-001-original-repeat2/2024              0.00%    passed     99.88%
+ 219  A/cattle/CO/24-024238-001-original-repeat2/2024              0.00%    passed     99.97%
+ 220  A/cattle/CO/24-024945-001-original/2024                      0.00%    passed     99.98%
+ 221  A/cattle/CO/24-024946-001-original/2024                      0.00%    passed     99.95%
+ 222  A/cattle/CO/24-024947-001-original/2024                      0.00%    passed     99.99%
+ 223  A/cattle/CO/24-024948-001-original/2024                      0.00%    passed     99.85%
+ 224  A/cattle/CO/24-025573-001-original/2024                      0.00%    passed     99.98%
+ 225  A/cattle/CO/24-025575-001-original/2024                      0.00%    passed     99.99%
+ 226  A/cattle/CO/24-025576-001-original/2024                      0.00%    passed    100.00%
+ 227  A/cattle/CO/24-026550-001-original/2024                      0.00%    passed     99.99%
+ 228  A/cattle/CO/24-026553-001-original/2024                      0.00%    passed     99.99%
+ 229  A/cat/CO/24-016313-001-original/2024                         0.00%    passed    100.00%
+ 230  A/cat/CO/24-020717-001-original/2024                         0.00%    passed     99.96%
+ 231  A/cat/CO/24-020793-001-original/2024                         0.00%    passed     99.89%
+ 232  A/cat/CO/24-020794-001-original/2024                         0.00%    passed     99.96%
+ 233  A/cat/CO/24-021510-001-original/2024                         0.00%    passed     99.98%
+ 234  A/cat/CO/24-021510-002-original/2024                         0.00%    passed     99.98%
+ 235  A/cat/CO/24-036990-001-original/2024                         0.00%    passed     99.96%
+ 236  A/cat/CO/24-037506-001-original/2024                         0.00%    passed     99.98%
+ 237  A/cat/CO/25-003476-002-original-repeat2/2025                 0.00%    passed     99.93%
+ 238  A/cat/CO/25-003476-003-original/2025                         0.00%    passed     99.93%
+ 239  A/MountainLion/CO/24-038160-001-original/2024                0.00%    passed     99.93%
+ 240  A/Fox/CO/24-038266-001-original/2024                         0.00%    passed     99.99%
+ 241  A/Fox/CO/24-038266-002-original/2024                         0.00%    passed     99.99%
+ 242  A/Tiger/CO/24-038000-001-original/2024                       0.00%    passed     99.96%
+ 243  A/Tiger/CO/24-038158-001-original/2024                       0.00%    passed     99.93%
+ 244  A/Tiger/CO/24-038158-002-original/2024                       0.00%    passed     99.93%
+ 245  A/Tiger/CO/24-038268-001-original/2024                       0.00%    passed     99.99%
+ 246  A/PetFood/CO/25-003807-001-original/2025                     0.00%    passed     99.96%
+ 247  A/PetFood/CO/25-003807-002-original/2025                     0.00%    passed     99.96%
+ 248  A/PetFood/CO/25-003807-005-original/2025                     0.00%    passed     99.96%
+ 249  A/PetFood/CO/25-003807-006-original/2025                     0.00%    passed     99.96%
+ 250  A/PetFood/CO/25-003807-010-original/2025                     0.00%    passed     99.96%
+ 251  A/PetFood/CO/25-003807-014-original/2025                     0.00%    passed     99.96%
+ 252  A/PetFood/CO/25-003807-021-original/2025                     0.00%    passed     99.96%
+ 253  A/cat/CO/25-005222-001-original-repeat2/2025                 0.00%    passed     99.48%
+ 254  A/cat/CO/25-006047-001-original/2025                         0.00%    passed     99.01%
+ 255  A/cat/CO/25-009632-001-original/2025                         0.00%    passed     99.67%
+ 256  A/cat/CO/25-009632-004-original/2025                         0.00%    passed     99.77%
+ 257  A/cat/OH/25-010610-001-original/2025                         0.00%    passed     99.49%
+ 258  A/cat/CO/25-012358-001-original/2025                         0.00%    passed     98.34%
+ 259  A/Snow_Goose/CO/23-039475-003-original/2023                  0.00%    passed     98.74%
+ 260  A/Snow_Goose/CO/24-036616-001-original-repeat2/2024          0.00%    passed     99.29%
+ 261  A/Snow_Goose/CO/24-037874-001-original/2024                  0.00%    passed     98.59%
+ 262  A/Snow_Goose/CO/24-037874-002-original/2024                  0.00%    passed     99.89%
+ 263  A/Snow_Goose/CO/24-038748-001-original/2024                  0.00%    passed     99.51%
+ 264  A/Snow_Goose/CO/25-000365-002-original/2024                  0.00%    passed     99.58%
+ 265  A/Turkey_Vulture/CO/25-004663-001-original/2025              0.00%    passed     99.79%
+ 266  A/Peregrine_Falcon/CO/24-036319-001-original/2024            0.00%    passed     99.47%
+ 267  A/Red-tailed_Hawk/CO/24-036851-001-original/2024             0.00%    passed     98.70%
+ 268  A/Red-tailed_Hawk/CO/24-037418-001-original/2024             0.00%    passed     99.40%
+ 269  A/Red-tailed_Hawk/CO/24-038833-001-original/2024             0.00%    passed     98.45%
+ 270  A/Great_horned_Owl/CO/24-037875-001-original/2024            0.16%    passed     99.56%
+ 271  A/goose/CO/25-003688-001-original/2025                       0.00%    passed     99.67%
+ 272  A/Golden_Eagle/CO/25-010611-001-original/2024                0.00%    passed     99.64%
+ 273  A/Peregrine_Falcon/CO/25-019366-001-original/2024            0.00%    passed     99.47%
+ 274  A/Red-tailed_Hawk/CO/25-004838-001-original/2025             0.00%    passed     98.90%
+ 275  A/Canada_Goose/CO/25-000847-001-original/2025                0.00%    passed     99.82%
+ 276  A/Cackling_Goose/CO/25-000848-001-original/2025              0.00%    passed     99.56%
+ 277  A/Canada_Goose/CO/25-003686-001-original/2025                0.00%    passed     99.51%
+ 278  A/Canada_Goose/CO/25-003832-001-original/2025                0.00%    passed     99.27%
+ 279  A/Canada_Goose/CO/25-004662-001-original/2025                0.00%    passed     99.57%
+ 280  A/Canada_Goose/CO/25-004659-001-original/2025                0.00%    passed     99.56%
+ 281  A/Canada_Goose/CO/25-004839-001-original/2025                0.00%    passed     99.47%
+ 282  A/Canada_Goose/CO/25-004839-002-original/2025                0.00%    passed     99.18%
+ 283  A/Canada_Goose/CO/25-004839-003-original/2025                0.00%    passed     99.04%
+ 284  A/Snow_Goose/CO/23-037467-001-original/2023                  0.00%    passed     98.50%
+ 285  A/Canada_Goose/CO/23-037246-001-original/2023                0.00%    passed     99.53%
+ 286  A/Snow_Goose/CO/23-039141-001-original/2023                  0.00%    passed    100.00%
+ 287  A/Snow_Goose/CO/23-039137-001-original/2023                  0.00%    passed     99.60%
+ 288  A/Great_horned_Owl/CO/23-039247-001-original/2023            0.00%    passed     99.54%
+ 289  A/Red-tailed_Hawk/CO/23-039249-001-original/2023             0.00%    passed     98.85%
+ 290  A/Mallard_Duck/CO/23-040385-001-original/2023                0.00%    passed     99.65%
+ 291  A/American_Wigeon/CO/23-034259-003-original/2023             0.00%    passed     97.78%
+ 292  A/Canada_Goose/CO/23-035011-001-original/2023                0.00%    passed     98.93%
+ 293  A/Cackling_Goose/CO/23-035121-001-original/2023              0.00%    passed     97.28%
+ 294  A/Canada_Goose/CO/23-035698-001-original/2023                0.00%    passed     99.51%
+ 295  A/Cackling_Goose/CO/23-036794-001-original/2023              0.00%    passed     99.42%
+ 296  A/Cackling_Goose/CO/23-036794-002-original/2023              0.00%    passed     98.71%
+ 297  A/Cackling_Goose/CO/23-036899-001-original/2023              0.00%    passed     99.53%
+ 298  A/Canada_Goose/CO/23-037674-001-original/2023                0.00%    passed     99.23%
+ 299  A/Great_horned_Owl/CO/23-037676-001-original/2023            0.00%    passed     98.48%
+ 300  A/Common_Raven/CO/23-037854-001-original/2023                0.00%    passed     97.35%
+ 301  A/Great_horned_Owl/CO/23-039139-001-original/2023            0.00%    passed     97.53%
+ 302  A/Magpie/CO/23-040380-001-original/2023                      0.00%    passed     99.48%
+ 303  A/Crow/CO/23-040382-001-original/2023                        0.00%    passed     99.14%
+ 304  A/Great_horned_Owl/CO/23-040350-001-original/2023            0.00%    passed     97.90%
+ 305  A/Great_horned_Owl/CO/23-040513-001-original/2023            0.00%    passed     98.78%
+ 306  A/Mallard_Duck/CO/24-003181-003-original/2024                0.00%    passed     99.77%
+ 307  A/Great_horned_Owl/CO/24-036617-001-original-repeat3/2024    0.00%    passed     92.16%
+ 308  A/Great_horned_Owl/CO/24-035673-001-original/2024            0.00%    passed     88.15%
+ 309  A/Great_horned_Owl/CO/24-036855-001-original/2024            0.00%    passed     90.45%
+ 310  A/Ring-necked_Duck/CO/24-036854-001-original/2024            0.00%    passed     91.05%
+ 311  A/chicken/CO/24-033705-001-original/2024                     0.00%    passed     98.21%
+ 312  A/chicken/CO/24-033705-002-original/2024                     0.00%    passed     98.21%
+ 313  A/Turkey/CO/25-011106-001-original/2025                      0.00%    passed     99.53%
+ 314  A/Turkey/CO/25-011106-002-original/2025                      0.00%    passed     99.40%
+ 315  A/Turkey/CO/25-011106-003-original/2025                      0.00%    passed     99.53%
+ 316  A/Turkey/CO/25-011106-004-original/2025                      0.00%    passed     99.47%
+ 317  A/goose/CO/25-002572-001-original/2025                       0.00%    passed     99.40%
+ 318  A/Great_Horned_Owl/CO/25-007026-001-original/2025            0.00%    passed     98.34%
+ 319  A/Red-tailed_Hawk/CO/25-004081-001-original/2025             0.00%    passed     99.78%
+ 320  A/Great_Horned_Owl/CO/25-004536-001-original/2025            0.00%    passed     98.86%
+ 321  A/Red-tailed_Hawk/CO/25-004539-001-original/2025             0.00%    passed     99.83%
+ 322  A/Canada_Goose/CO/25-004961-001-original/2025                0.00%    passed     98.86%
+ 323  A/Great_Horned_Owl/CO/25-004841-001-original/2025            0.00%    passed     99.75%
+ 324  A/Canada_Goose/CO/25-005220-001-original/2025                0.00%    passed     98.70%
+ 325  A/Red-tailed_Hawk/CO/25-004960-001-original/2025             0.00%    passed     99.64%
+ 326  A/Red-tailed_Hawk/CO/25-005218-001-original/2025             0.00%    passed     99.64%
+ 327  A/goose/CO/25-005221-001-original/2025                       0.00%    passed     99.65%
+ 328  A/Canada_Goose/CO/25-006283-001-original/2025                0.00%    passed     99.15%
+ 329  A/Red-tailed_Hawk/CO/25-006282-001-original/2025             0.00%    passed     99.73%
+ 330  A/Great_Horned_Owl/CO/25-006740-001-original/2025            0.00%    passed     98.61%
+ 331  A/Great_Horned_Owl/CO/25-006998-001-original/2025            0.00%    passed     99.32%
+ 332  A/Cackling_Goose/CO/25-007029-001-original/2025              0.00%    passed     98.52%
+ 333  A/Great_Horned_Owl/CO/25-007031-001-original/2025            0.00%    passed     99.51%
+ 334  A/Red-tailed_Hawk/CO/25-007671-001-original/2025             0.00%    passed     99.34%
+ 335  A/Great_Horned_Owl/CO/25-007665-001-original/2025            0.00%    passed     99.30%
+ 336  A/Red-tailed_Hawk/CO/25-007993-001-original/2025             0.00%    passed     98.13%
+ 337  A/Red-tailed_Hawk/CO/25-008905-001-original/2025             0.00%    passed     97.34%
+ 338  A/Red-tailed_Hawk/CO/25-010613-001-original/2025             0.00%    passed     99.12%
+ 339  A/Red-tailed_Hawk/CO/25-010964-001-original/2025             0.00%    passed     98.87%
+ 340  A/Red-tailed_Hawk/CO/25-010882-001-original/2025             0.00%    passed     98.08%
+ 341  A/Red-tailed_Hawk/CO/25-011104-001-original/2025             0.00%    passed     99.52%
+ 342  A/Red-tailed_Hawk/CO/25-019366-002-original/2025             0.00%    passed     99.47%
+ 343  A/Sharp-shinned_Hawk/CO/25-013219-001-original/2025          0.00%    passed     98.80%
+ 344  A/Turkey_Vulture/CO/25-013659-001-original/2025              0.00%    passed     99.47%
+ 345  A/chicken/CO/25-008063-001-original/2025                     0.00%    passed     99.40%
+ 346  A/chicken/CO/25-008063-002-original/2025                     0.00%    passed     99.41%
+ 347  A/chicken/CO/25-004840-001-original/2025                     0.00%    passed     99.86%
+ 348  A/chicken/CO/25-004840-003-original/2025                     0.00%    passed     99.81%
+ 349  A/chicken/CO/25-004843-001-original/2025                     0.00%    passed     99.85%
+ 350  A/chicken/CO/25-004840-002-original/2025                     0.00%    passed     99.86%
+ 351  A/chicken/CO/25-004840-004-original/2025                     0.00%    passed     99.81%
+ 352  A/chicken/CO/25-004843-002-original/2025                     0.00%    passed     99.81%
+ 353  A/chicken/CO/25-004076-001-original/2025                     0.00%    passed     99.34%
+ 354  A/chicken/CO/25-004076-002-original/2025                     0.00%    passed     99.24%
+ 355  A/Guineafowl/CO/25-004397-001-original/2025                  0.00%    passed     99.81%
+ 356  A/Guineafowl/CO/25-004397-003-original/2025                  0.00%    passed     99.81%
+ 357  A/Guineafowl/CO/25-004553-001-original/2025                  0.00%    passed     99.81%
+ 358  A/Guineafowl/CO/25-004397-002-original/2025                  0.00%    passed     99.81%
+ 359  A/Guineafowl/CO/25-004397-004-original/2025                  0.00%    passed     99.81%
+ 360  A/Guineafowl/CO/25-004553-002-original/2025                  0.00%    passed     99.81%
+ 361  A/Canada_Goose/CO/25-001845-001-original/2025                0.00%    passed     99.36%
+ 362  A/Hawk/CO/25-002315-001-original/2025                        0.00%    passed     99.27%
+ 363  A/Great_Horned_Owl/CO/25-002313-001-original/2025            0.00%    passed     99.64%
+ 364  A/Cackling_Goose/CO/25-002314-001-original/2025              0.00%    passed     99.53%
+ 365  A/Great_Horned_Owl/CO/25-002987-001-original/2025            0.00%    passed     98.08%
+ 366  A/Red-tailed_Hawk/CO/25-002984-001-original/2025             0.00%    passed     99.76%
+ 367  A/Red-tailed_Hawk/CO/25-003477-001-original/2025             0.00%    passed     99.09%
+ 368  A/Red-tailed_Hawk/CO/25-003294-001-original/2025             0.00%    passed     99.53%
+ 369  A/Red-tailed_Hawk/CO/25-003478-001-original/2025             0.00%    passed     99.18%
+ 370  A/chicken/CO/24-036613-001-original/2024                     0.00%    passed     99.61%
+ 371  A/Snow_Goose/CO/24-007706-001-original/2024                  0.00%    passed     98.00%
+ 372  A/Eurasian_Collared_Dove/CO/24-021011-001-original/2024      0.00%    passed     99.93%
+ 373  A/chicken/CO/24-019377-002-original/2024                     0.00%    passed     99.93%
+ 374  A/chicken/CO/24-020285-001-original/2024                     0.00%    passed     99.94%
+ 375  A/chicken/CO/24-020285-003-original/2024                     0.00%    passed     99.90%
+ 376  A/chicken/CO/24-020285-005-original/2024                     0.00%    passed     99.96%
+ 377  A/chicken/CO/24-020285-007-original/2024                     0.00%    passed     99.94%
+ 378  A/chicken/CO/24-020285-009-original/2024                     0.00%    passed     99.88%
+ 379  A/chicken/CO/24-020285-011-original/2024                     0.00%    passed     99.93%
+ 380  A/chicken/CO/24-020796-002-original/2024                     0.00%    passed     99.95%
+ 381  A/chicken/CO/24-020796-004-original/2024                     0.00%    passed     99.93%
+ 382  A/chicken/CO/24-020796-006-original/2024                     0.00%    passed     99.98%
+ 383  A/chicken/CO/24-020796-008-original/2024                     0.00%    passed     99.88%
+ 384  A/chicken/CO/24-020796-009-original/2024                     0.00%    passed     99.93%
+ 385  A/chicken/CO/24-019377-001-original/2024                     0.00%    passed     99.93%
+ 386  A/chicken/CO/24-020285-002-original/2024                     0.00%    passed     99.90%
+ 387  A/chicken/CO/24-020285-004-original/2024                     0.00%    passed     99.90%
+ 388  A/chicken/CO/24-020285-006-original/2024                     0.00%    passed     99.93%
+ 389  A/chicken/CO/24-020285-008-original/2024                     0.00%    passed     99.96%
+ 390  A/chicken/CO/24-020285-010-original/2024                     0.00%    passed     99.93%
+ 391  A/chicken/CO/24-020285-012-original/2024                     0.00%    passed     99.99%
+ 392  A/chicken/CO/24-020796-001-original/2024                     0.00%    passed     99.94%
+ 393  A/chicken/CO/24-020796-003-original/2024                     0.00%    passed     99.90%
+ 394  A/chicken/CO/24-020796-005-original/2024                     0.00%    passed     99.85%
+ 395  A/chicken/CO/24-020796-007-original/2024                     0.00%    passed     99.90%
+ 396  A/chicken/CO/24-020714-002-original/2024                     0.00%    passed     99.96%
+ 397  A/chicken/CO/24-020796-010-original/2024                     0.00%    passed     99.94%
+ 398  A/chicken/CO/24-020798-001-original/2024                     0.00%    passed     99.93%
+ 399  A/chicken/CO/24-021247-002-original/2024                     0.00%    passed     99.90%
+ 400  A/chicken/CO/24-021247-001-original/2024                     0.00%    passed     99.90%
+ 401  A/chicken/CO/24-020282-002-original/2024                     0.00%    passed     99.85%
+ 402  A/chicken/CO/24-020282-004-original/2024                     0.00%    passed     99.88%
+ 403  A/chicken/CO/24-020282-001-original/2024                     0.00%    passed     99.88%
+ 404  A/chicken/CO/24-020282-003-original/2024                     0.00%    passed     99.88%
+ 405  A/chicken/CO/24-018507-001-original/2024                     0.00%    passed     99.95%
+ 406  A/chicken/CO/24-018507-003-original/2024                     0.00%    passed     99.95%
+ 407  A/chicken/CO/24-018507-002-original/2024                     0.00%    passed     99.97%
+ 408  A/chicken/CO/24-018507-004-original/2024                     0.00%    passed     99.97%
+ 409  A/goose/CO/23-038138-001-original/2023                       0.00%    passed     99.97%
+****  TOTAL                                                        0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+Loading 8 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	409	2280	531	1658	GTR+F+I+G4	PB2
+2	DNA	409	2274	376	1742	GTR+F+I+G4	PB1
+3	DNA	409	2151	342	1686	GTR+F+I+G4	PA
+4	DNA	409	1704	142	1441	GTR+F+I+G4	HA
+5	DNA	409	1497	261	1156	GTR+F+I+G4	NP
+6	DNA	409	1410	302	1031	GTR+F+I+G4	NA
+7	DNA	409	982	53	879	GTR+F+I+G4	M
+8	DNA	409	838	105	671	GTR+F+I+G4	NS
+Degree of missing data: 0.000
+NOTE: A/Cattle/Colorado/24-012225-014-original/2024 is identical to A/Cattle/Colorado/24-012225-001-original/2024 but kept for subsequent analysis
+NOTE: A/Cattle/Colorado/24-014901-002-original/2024 is identical to A/Cattle/Colorado/24-014901-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-017662-006-original/2024 is identical to A/Cattle/Colorado/24-014901-005-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-017148-005-original/2024 is identical to A/cattle/CO/24-017148-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-017152-018-original/2024 is identical to A/cattle/CO/24-017152-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-017154-004-original/2024 is identical to A/cattle/CO/24-017154-003-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-017154-010-original/2024 is identical to A/cattle/CO/24-017154-008-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-018334-006-original/2024 is identical to A/cattle/CO/24-018334-005-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-019381-005-original/2024 is identical to A/cattle/CO/24-019381-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-019381-015-original/2024 is identical to A/cattle/CO/24-019381-012-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-019691-004-original/2024 is identical to A/cattle/CO/24-019691-003-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-019693-007-original/2024 is identical to A/cattle/CO/24-019693-004-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-019693-006-original/2024 is identical to A/cattle/CO/24-019693-005-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-022165-001-original/2024 is identical to A/cattle/CO/24-020176-005-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-020284-011-original/2024 is identical to A/cattle/CO/24-020284-006-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-020284-009-original/2024 is identical to A/cattle/CO/24-020284-008-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-020712-006-original/2024 is identical to A/cattle/CO/24-020712-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-020797-004-original/2024 is identical to A/cattle/CO/24-020797-002-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-020940-007-original/2024 is identical to A/cattle/CO/24-020940-005-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-023571-001-original-repeat2/2024 is identical to A/cattle/CO/24-022179-001-original/2024 but kept for subsequent analysis
+NOTE: A/cattle/CO/24-025573-001-original/2024 is identical to A/cattle/CO/24-024945-001-original/2024 but kept for subsequent analysis
+NOTE: A/cat/CO/24-020794-001-original/2024 is identical to A/cat/CO/24-020717-001-original/2024 but kept for subsequent analysis
+NOTE: A/cat/CO/24-021510-002-original/2024 is identical to A/cat/CO/24-021510-001-original/2024 but kept for subsequent analysis
+NOTE: A/cat/CO/25-003476-003-original/2025 is identical to A/cat/CO/25-003476-002-original-repeat2/2025 but kept for subsequent analysis
+NOTE: A/Fox/CO/24-038266-002-original/2024 is identical to A/Fox/CO/24-038266-001-original/2024 but kept for subsequent analysis
+NOTE: A/Tiger/CO/24-038158-002-original/2024 is identical to A/Tiger/CO/24-038158-001-original/2024 but kept for subsequent analysis
+NOTE: A/PetFood/CO/25-003807-005-original/2025 is identical to A/PetFood/CO/25-003807-002-original/2025 but kept for subsequent analysis
+NOTE: A/Peregrine_Falcon/CO/25-019366-001-original/2024 is identical to A/Peregrine_Falcon/CO/24-036319-001-original/2024 but kept for subsequent analysis
+NOTE: A/chicken/CO/24-033705-002-original/2024 is identical to A/chicken/CO/24-033705-001-original/2024 but kept for subsequent analysis
+NOTE: A/Turkey/CO/25-011106-003-original/2025 is identical to A/Turkey/CO/25-011106-001-original/2025 but kept for subsequent analysis
+NOTE: A/chicken/CO/25-004840-002-original/2025 is identical to A/chicken/CO/25-004840-001-original/2025 but kept for subsequent analysis
+NOTE: A/chicken/CO/25-004840-004-original/2025 is identical to A/chicken/CO/25-004840-003-original/2025 but kept for subsequent analysis
+NOTE: A/Guineafowl/CO/25-004397-001-original/2025 is identical to A/chicken/CO/25-004843-002-original/2025 but kept for subsequent analysis
+NOTE: A/chicken/CO/24-020285-011-original/2024 is identical to A/chicken/CO/24-019377-002-original/2024 but kept for subsequent analysis
+NOTE: A/chicken/CO/24-020285-002-original/2024 is identical to A/chicken/CO/24-020285-003-original/2024 but kept for subsequent analysis
+NOTE: A/chicken/CO/24-020282-003-original/2024 is identical to A/chicken/CO/24-020282-004-original/2024 but kept for subsequent analysis
+Identifying sites to remove: done in 0.0022428 secs using 96.04% CPU
+Identifying sites to remove: done in 0.0021801 secs using 96.97% CPU
+Identifying sites to remove: done in 0.00206804 secs using 96.52% CPU
+Identifying sites to remove: done in 0.00164318 secs using 99.08% CPU
+Identifying sites to remove: done in 0.00150108 secs using 97.46% CPU
+Identifying sites to remove: done in 0.00146103 secs using 98.08% CPU
+Identifying sites to remove: done in 0.000941992 secs using 97.98% CPU
+Identifying sites to remove: done in 0.000853062 secs using 96.83% CPU
+NOTE: 33 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: A/Cattle/Colorado/24-012225-033-original/2024 (identical to A/Cattle/Colorado/24-012225-001-original/2024) is ignored but added at the end
+NOTE: A/Cattle/Colorado/24-014901-003-original/2024 (identical to A/Cattle/Colorado/24-014901-001-original/2024) is ignored but added at the end
+NOTE: A/Cattle/Colorado/24-014901-007-original/2024 (identical to A/Cattle/Colorado/24-014901-001-original/2024) is ignored but added at the end
+NOTE: A/Cattle/Colorado/24-014901-008-original/2024 (identical to A/Cattle/Colorado/24-014901-001-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-018771-001-original/2024 (identical to A/Cattle/Colorado/24-014901-001-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-017662-011-original/2024 (identical to A/Cattle/Colorado/24-014901-005-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-017662-014-original/2024 (identical to A/Cattle/Colorado/24-014901-005-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-017148-007-original/2024 (identical to A/cattle/CO/24-017148-001-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-019381-016-original/2024 (identical to A/cattle/CO/24-019381-012-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-019691-013-original/2024 (identical to A/cattle/CO/24-019691-003-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-019693-008-original/2024 (identical to A/cattle/CO/24-019693-005-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-022172-001-original/2024 (identical to A/cattle/CO/24-020712-001-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-024238-001-original-repeat2/2024 (identical to A/cattle/CO/24-020712-001-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-020797-009-original/2024 (identical to A/cattle/CO/24-020797-002-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-020797-012-original/2024 (identical to A/cattle/CO/24-020797-002-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-020797-014-original/2024 (identical to A/cattle/CO/24-020797-002-original/2024) is ignored but added at the end
+NOTE: A/cattle/CO/24-020797-015-original/2024 (identical to A/cattle/CO/24-020797-002-original/2024) is ignored but added at the end
+NOTE: A/Tiger/CO/24-038268-001-original/2024 (identical to A/Fox/CO/24-038266-001-original/2024) is ignored but added at the end
+NOTE: A/PetFood/CO/25-003807-006-original/2025 (identical to A/PetFood/CO/25-003807-002-original/2025) is ignored but added at the end
+NOTE: A/PetFood/CO/25-003807-010-original/2025 (identical to A/PetFood/CO/25-003807-002-original/2025) is ignored but added at the end
+NOTE: A/PetFood/CO/25-003807-014-original/2025 (identical to A/PetFood/CO/25-003807-002-original/2025) is ignored but added at the end
+NOTE: A/PetFood/CO/25-003807-021-original/2025 (identical to A/PetFood/CO/25-003807-002-original/2025) is ignored but added at the end
+NOTE: A/Guineafowl/CO/25-004397-003-original/2025 (identical to A/chicken/CO/25-004843-002-original/2025) is ignored but added at the end
+NOTE: A/Guineafowl/CO/25-004553-001-original/2025 (identical to A/chicken/CO/25-004843-002-original/2025) is ignored but added at the end
+NOTE: A/Guineafowl/CO/25-004397-002-original/2025 (identical to A/chicken/CO/25-004843-002-original/2025) is ignored but added at the end
+NOTE: A/Guineafowl/CO/25-004397-004-original/2025 (identical to A/chicken/CO/25-004843-002-original/2025) is ignored but added at the end
+NOTE: A/Guineafowl/CO/25-004553-002-original/2025 (identical to A/chicken/CO/25-004843-002-original/2025) is ignored but added at the end
+NOTE: A/chicken/CO/24-020796-009-original/2024 (identical to A/chicken/CO/24-019377-002-original/2024) is ignored but added at the end
+NOTE: A/chicken/CO/24-019377-001-original/2024 (identical to A/chicken/CO/24-019377-002-original/2024) is ignored but added at the end
+NOTE: A/chicken/CO/24-020285-006-original/2024 (identical to A/chicken/CO/24-019377-002-original/2024) is ignored but added at the end
+NOTE: A/chicken/CO/24-020285-004-original/2024 (identical to A/chicken/CO/24-020285-003-original/2024) is ignored but added at the end
+NOTE: A/chicken/CO/24-021247-002-original/2024 (identical to A/chicken/CO/24-020285-003-original/2024) is ignored but added at the end
+NOTE: A/chicken/CO/24-021247-001-original/2024 (identical to A/chicken/CO/24-020285-003-original/2024) is ignored but added at the end
+Alignment was printed to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+26.705 seconds, parsimony score: 4112 (based on 2872 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 106 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+14 trees examined
+Threads: 1 / Time: 12.501 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -234136
+Threads: 2 / Time: 9.057 sec / Speedup: 1.380 / Efficiency: 69% / LogL: -234136
+Threads: 3 / Time: 8.020 sec / Speedup: 1.559 / Efficiency: 52% / LogL: -234136
+Threads: 4 / Time: 7.601 sec / Speedup: 1.645 / Efficiency: 41% / LogL: -234136
+Determining AUTO threadcount: done in 37.1852 secs using 152.6% CPU
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -48941.989
+Current log-likelihood at step 1: -46874.737
+Current log-likelihood at step 2: -46497.535
+Current log-likelihood at step 3: -46485.879
+Current log-likelihood at step 4: -46477.705
+Current log-likelihood at step 5: -46477.019
+Current log-likelihood at step 6: -46476.968
+Partition-specific rates:  1.320 1.129 0.905 0.617 1.209 1.186 0.427 0.787
+Parameters optimization took 5 rounds (4.166 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00228786 secs using 255.4% CPU
+Computing ML distances took 0.002580 sec (of wall-clock time) 0.005910 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000218868 secs using 201.5% CPU
+Constructing RapidNJ tree: done in 0.0199609 secs using 110.4% CPU
+Computing RapidNJ tree took 0.020228 sec (of wall-clock time) 0.022498 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -175560.831
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 3.465 second
+Computing log-likelihood of 98 initial trees ... 16.510 seconds
+Current best score: -46476.968
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46346.490
+Current log-likelihood at step 1: -46345.875
+Current log-likelihood at step 2: -46345.530
+Current log-likelihood at step 3: -46343.607
+Current log-likelihood at step 4: -46340.735
+Current log-likelihood at step 5: -46340.280
+Current log-likelihood at step 6: -46340.120
+Current log-likelihood at step 7: -46340.001
+Current log-likelihood at step 8: -46339.927
+Parameters optimization took 7 rounds (2.790 sec)
+
+BETTER TREE FOUND at iteration 1: -46339.927
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -46312.881
+Current log-likelihood at step 1: -46312.636
+Current log-likelihood at step 2: -46312.610
+Parameters optimization took 1 rounds (1.057 sec)
+
+BETTER TREE FOUND at iteration 3: -46312.610
+Iteration 10 / LogL: -46339.566 / Time: 0h:2m:11s
+Iteration 20 / LogL: -46336.671 / Time: 0h:2m:50s
+Finish initializing candidate tree set (20)
+Current best tree score: -46312.610 / CPU time: 101.839
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -46486.868 / Time: 0h:3m:15s (0h:7m:5s left)
+Iteration 40 / LogL: -46346.893 / Time: 0h:3m:42s (0h:5m:17s left)
+Iteration 50 / LogL: -46313.503 / Time: 0h:4m:9s (0h:4m:0s left)
+Log-likelihood cutoff on original alignment: -46385.933
+Iteration 60 / LogL: -46326.907 / Time: 0h:4m:35s (0h:3m:1s left)
+Iteration 70 / LogL: -46317.382 / Time: 0h:4m:59s (0h:2m:10s left)
+Iteration 80 / LogL: -46313.647 / Time: 0h:5m:25s (0h:1m:27s left)
+Iteration 90 / LogL: -46327.585 / Time: 0h:5m:48s (0h:0m:47s left)
+Iteration 100 / LogL: -46351.787 / Time: 0h:6m:13s (0h:0m:10s left)
+Log-likelihood cutoff on original alignment: -46385.933
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.981
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -46313.614 / Time: 0h:6m:39s (0h:5m:7s left)
+Iteration 120 / LogL: -46316.931 / Time: 0h:7m:6s (0h:4m:28s left)
+Iteration 130 / LogL: -46313.558 / Time: 0h:7m:34s (0h:3m:51s left)
+Iteration 140 / LogL: -46313.602 / Time: 0h:8m:0s (0h:3m:15s left)
+Iteration 150 / LogL: -46320.387 / Time: 0h:8m:25s (0h:2m:40s left)
+Log-likelihood cutoff on original alignment: -46385.933
+Iteration 160 / LogL: -46313.475 / Time: 0h:8m:52s (0h:2m:7s left)
+Iteration 170 / LogL: -46353.697 / Time: 0h:9m:19s (0h:1m:34s left)
+Iteration 180 / LogL: -46313.759 / Time: 0h:9m:47s (0h:1m:2s left)
+Iteration 190 / LogL: -46313.607 / Time: 0h:10m:16s (0h:0m:31s left)
+Iteration 200 / LogL: -46328.209 / Time: 0h:10m:42s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -46385.933
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:10m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -46312.610
+Current log-likelihood at step 1: -46312.586
+Current log-likelihood at step 2: -46312.567
+Current log-likelihood at step 3: -46312.548
+Current log-likelihood at step 4: -46312.530
+Current log-likelihood at step 5: -46312.510
+Current log-likelihood at step 6: -46312.479
+Current log-likelihood at step 7: -46312.449
+Current log-likelihood at step 8: -46312.426
+Current log-likelihood at step 9: -46312.413
+Current log-likelihood at step 10: -46312.399
+Current log-likelihood at step 11: -46312.390
+Partition-specific rates:  1.330 1.129 0.910 0.610 1.205 1.188 0.419 0.776
+Parameters optimization took 10 rounds (4.271 sec)
+
+Partition information was printed to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.best_model.nex
+BEST SCORE FOUND : -46312.390
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+12.214 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.splits.nex
+Total tree length: 0.341
+
+Total number of iterations: 200
+CPU time used for tree search: 1061.316 sec (0h:17m:41s)
+Wall-clock time used for tree search: 574.307 sec (0h:9m:34s)
+Total CPU time used: 1185.496 sec (0h:19m:45s)
+Total wall-clock time used: 660.115 sec (0h:11m:0s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.splits.nex...
+376 taxa and 6242 splits.
+Consensus tree written to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.contree
+Reading input trees file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.contree
+Log-likelihood of consensus tree: -46318.212
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.iqtree
+  Maximum-likelihood tree:       /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.treefile
+  Likelihood distances:          /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.splits.nex
+  Consensus tree:                /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.contree
+  Screen log file:               /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/16_build-genome-tree/co/genome-tree.log
+
+Date and Time: Fri Nov 13 10:07:48 2026
