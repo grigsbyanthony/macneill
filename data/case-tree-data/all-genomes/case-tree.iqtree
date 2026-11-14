@@ -1,0 +1,239 @@
+IQ-TREE 3.1.3 built Jul 26 2026
+
+Partition file name: /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-partitions.nex
+Input file name: /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-supermatrix.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 26 taxa with 8 partitions and 14311 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	26	2337	46	92	2230	2230	PB2
+   2	DNA	26	2478	46	296	2170	2170	PB1
+   3	DNA	26	2229	61	263	1948	1948	PA
+   4	DNA	26	1776	45	72	1691	1691	HA
+   5	DNA	26	1565	34	45	1512	1512	NP
+   6	DNA	26	1602	48	225	1369	1369	NA
+   7	DNA	26	1027	24	29	995	995	M
+   8	DNA	26	1297	35	75	1216	1216	NS
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+I+G4     0.5421  GTR{1.12842,9.61051,0.667232,0.0001,14.3416}+F{0.336218,0.193337,0.259295,0.21115}+I{0.49255}+G4{0.241422}
+   2  GTR+F+I+G4     1.4130  GTR{1.52837,6.41331,0.743845,0.114661,11.2292}+F{0.353596,0.199344,0.227945,0.219116}+I{0.338349}+G4{998.441}
+   3  GTR+F+I+G4     1.3780  GTR{2.18344,13.7748,0.819136,0.0001,17.7804}+F{0.329525,0.20073,0.242982,0.226764}+I{0.364846}+G4{998.442}
+   4  GTR+F+I+G4     0.5125  GTR{11.4329,47.7045,5.58677,0.0001,100}+F{0.34498,0.187726,0.232101,0.235193}+I{0.484}+G4{1.03089}
+   5  GTR+F+I+G4     0.4560  GTR{6.13927,31.9102,0.0001,0.0001,40.145}+F{0.315914,0.205334,0.268666,0.210087}+I{0.561906}+G4{0.0200231}
+   6  GTR+F+I+G4     1.8935  GTR{1.22226,6.46714,0.973911,0.361743,11.1936}+F{0.297463,0.181969,0.252728,0.26784}+I{0.401518}+G4{203.262}
+   7  GTR+F+I+G4     0.3208  GTR{1.15287,6.46905,0.0001,0.0001,3.76649}+F{0.272207,0.223132,0.273226,0.231435}+I{0.49859}+G4{0.830838}
+   8  GTR+F+I+G4     1.1445  GTR{2.0857,15.1668,2.19487,0.105595,23.1375}+F{0.311854,0.209529,0.244081,0.234537}+I{0.463103}+G4{0.940977}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -23963.7741 (s.e. 173.1760)
+Unconstrained log-likelihood (without tree): -26752.2981
+Number of free parameters (#branches + #model parameters): 136
+Akaike information criterion (AIC) score: 48199.5482
+Corrected Akaike information criterion (AICc) score: 48202.1772
+Bayesian information criterion (BIC) score: 49228.9028
+
+Marginal log-likelihood of the tree: -24212.3316
+Marginal Akaike information criterion (mAIC) score: 48696.6633
+
+Total tree length (sum of branch lengths): 0.1125
+Sum of internal branch lengths: 0.1035 (91.9843% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A/cattle/CO/24-017148-007-original/2024' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**A/cattle/CO/24-017148-007-original/2024
+|
+|              +--A/cattle/CO/24-017811-003-original/2024
+|           +--| (94.6/99)
+|           |  +**A/cat/CO/24-016313-001-original/2024
+|        +--| (81.6/83)
+|        |  |                                                             +--A/cat/CO/25-005222-001-original-repeat2/2025
+|        |  |                                                          +--| (85.9/89)
+|        |  |                                                          |  |     +--A/cat/CO/25-009632-001-original/2025
+|        |  |                                                          |  |  +--| (100/100)
+|        |  |                                                          |  |  |  +**A/cat/CO/25-009632-004-original/2025
+|        |  |                                                          |  +--| (100/100)
+|        |  |                                                          |     +--A/Canada
+|        |  |                                                       +--| (95.1/97)
+|        |  |                                                       |  +--A/Snow
+|        |  +-------------------------------------------------------| (100/100)
+|        |                                                          |     +--A/cat/CO/25-006047-001-original/2025
+|        |                                                          |  +--| (99.9/100)
+|        |                                                          |  |  +--A/Turkey
+|        |                                                          +--| (37.8/61)
+|        |                                                             |     +--A/cat/OH/25-010610-001-original/2025
+|        |                                                             |  +--| (96.1/99)
+|        |                                                             |  |  +--A/Great
+|        |                                                             +--| (84.1/86)
+|        |                                                                |  +--A/cat/CO/25-012358-001-original/2025
+|        |                                                                +--| (99.8/100)
+|        |                                                                   +--A/Red-tailed
+|     +--| (73.6/69)
+|     |  |     +**A/cat/CO/25-003476-002-original-repeat2/2025
+|     |  |  +--| (97.2/99)
+|     |  |  |  +**A/cat/CO/25-003476-003-original/2025
+|     |  +--| (100/100)
+|     |     +**A/PetFood/CO/25-003807-021-original/2025
+|  +--| (99.9/98)
+|  |  |  +--A/cat/CO/24-036990-001-original/2024
+|  |  +--| (99.6/100)
+|  |     |  +**A/cat/CO/24-037506-001-original/2024
+|  |     +**| (0/83)
+|  |        +**A/Turkey/MN/24-017049-003-original/2024
++**| (0/76)
+|  |     +**A/cat/CO/24-020717-001-original/2024
+|  |  +--| (95.6/99)
+|  |  |  +**A/cat/CO/24-020794-001-original/2024
+|  +--| (88.3/92)
+|     |  +**A/cat/CO/24-021510-001-original/2024
+|     +--| (86.1/93)
+|        +**A/cat/CO/24-021510-002-original/2024
+|
+|  +--A/cattle/CO/24-022179-001-original/2024
++--| (94.2/97)
+   +--A/cat/CO/24-020793-001-original/2024
+
+Tree in newick format:
+
+(A/cattle/CO/24-017148-007-original/2024:0.0000010000,(((((A/cattle/CO/24-017811-003-original/2024:0.0000773875,A/cat/CO/24-016313-001-original/2024:0.0000010000)94.6/99:0.0006659507,(((A/cat/CO/25-005222-001-original-repeat2/2025:0.0007769674,((A/cat/CO/25-009632-001-original/2025:0.0001545552,A/cat/CO/25-009632-004-original/2025:0.0000010000)100/100:0.0017130401,A/Canada:0.0006196526)100/100:0.0014022981)85.9/89:0.0001524499,A/Snow:0.0007763405)95.1/97:0.0006027456,((A/cat/CO/25-006047-001-original/2025:0.0008539578,A/Turkey:0.0003095255)99.9/100:0.0008584387,((A/cat/OH/25-010610-001-original/2025:0.0018692646,A/Great:0.0006220219)96.1/99:0.0003854038,(A/cat/CO/25-012358-001-original/2025:0.0007761326,A/Red-tailed:0.0009332042)99.8/100:0.0007769847)84.1/86:0.0001514055)37.8/61:0.0002553472)100/100:0.0920143784)81.6/83:0.0002675863,((A/cat/CO/25-003476-002-original-repeat2/2025:0.0000010000,A/cat/CO/25-003476-003-original/2025:0.0000010000)97.2/99:0.0003873440,A/PetFood/CO/25-003807-021-original/2025:0.0000010000)100/100:0.0021032055)73.6/69:0.0000727913,(A/cat/CO/24-036990-001-original/2024:0.0000773815,(A/cat/CO/24-037506-001-original/2024:0.0000010000,A/Turkey/MN/24-017049-003-original/2024:0.0000010000)0/83:0.0000010000)99.6/100:0.0007766691)99.9/98:0.0009322444,((A/cat/CO/24-020717-001-original/2024:0.0000010000,A/cat/CO/24-020794-001-original/2024:0.0000010000)95.6/99:0.0003098438,(A/cat/CO/24-021510-001-original/2024:0.0000010000,A/cat/CO/24-021510-002-original/2024:0.0000010000)86.1/93:0.0001547248)88.3/92:0.0001541736)0/76:0.0000010000,(A/cattle/CO/24-022179-001-original/2024:0.0001546908,A/cat/CO/24-020793-001-original/2024:0.0001547757)94.2/97:0.0002323555);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -23963.971567
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--A/cattle/CO/24-017148-007-original/2024
+|
+|              +--A/cattle/CO/24-017811-003-original/2024
+|           +--| (99)
+|           |  +--A/cat/CO/24-016313-001-original/2024
+|        +--| (83)
+|        |  |                                                             +--A/cat/CO/25-005222-001-original-repeat2/2025
+|        |  |                                                          +--| (89)
+|        |  |                                                          |  |     +--A/cat/CO/25-009632-001-original/2025
+|        |  |                                                          |  |  +--| (100)
+|        |  |                                                          |  |  |  +--A/cat/CO/25-009632-004-original/2025
+|        |  |                                                          |  +--| (100)
+|        |  |                                                          |     +--A/Canada
+|        |  |                                                       +--| (97)
+|        |  |                                                       |  +--A/Snow
+|        |  +-------------------------------------------------------| (100)
+|        |                                                          |     +--A/cat/CO/25-006047-001-original/2025
+|        |                                                          |  +--| (100)
+|        |                                                          |  |  +--A/Turkey
+|        |                                                          +--| (61)
+|        |                                                             |     +--A/cat/OH/25-010610-001-original/2025
+|        |                                                             |  +--| (99)
+|        |                                                             |  |  +--A/Great
+|        |                                                             +--| (86)
+|        |                                                                |  +--A/cat/CO/25-012358-001-original/2025
+|        |                                                                +--| (100)
+|        |                                                                   +--A/Red-tailed
+|     +--| (69)
+|     |  |     +--A/cat/CO/25-003476-002-original-repeat2/2025
+|     |  |  +--| (99)
+|     |  |  |  +--A/cat/CO/25-003476-003-original/2025
+|     |  +--| (100)
+|     |     +--A/PetFood/CO/25-003807-021-original/2025
+|  +--| (98)
+|  |  |  +--A/cat/CO/24-036990-001-original/2024
+|  |  +--| (100)
+|  |     |  +--A/cat/CO/24-037506-001-original/2024
+|  |     +--| (83)
+|  |        +--A/Turkey/MN/24-017049-003-original/2024
++--| (76)
+|  |     +--A/cat/CO/24-020717-001-original/2024
+|  |  +--| (99)
+|  |  |  +--A/cat/CO/24-020794-001-original/2024
+|  +--| (92)
+|     |  +--A/cat/CO/24-021510-001-original/2024
+|     +--| (93)
+|        +--A/cat/CO/24-021510-002-original/2024
+|
+|  +--A/cattle/CO/24-022179-001-original/2024
++--| (97)
+   +--A/cat/CO/24-020793-001-original/2024
+
+
+Consensus tree in newick format: 
+
+(A/cattle/CO/24-017148-007-original/2024:0.0000020937,(((((A/cattle/CO/24-017811-003-original/2024:0.0000771574,A/cat/CO/24-016313-001-original/2024:0.0000020937)99:0.0006651491,(((A/cat/CO/25-005222-001-original-repeat2/2025:0.0007771668,((A/cat/CO/25-009632-001-original/2025:0.0001550988,A/cat/CO/25-009632-004-original/2025:0.0000020937)100:0.0017134823,A/Canada:0.0006205775)100:0.0014026605)89:0.0001526058,A/Snow:0.0007767727)97:0.0006023853,((A/cat/CO/25-006047-001-original/2025:0.0008545634,A/Turkey:0.0003092043)100:0.0008584737,((A/cat/OH/25-010610-001-original/2025:0.0018697354,A/Great:0.0006238728)99:0.0003868219,(A/cat/CO/25-012358-001-original/2025:0.0007763240,A/Red-tailed:0.0009340411)100:0.0007771728)86:0.0001517547)61:0.0002564132)100:0.0920183607)83:0.0002682087,((A/cat/CO/25-003476-002-original-repeat2/2025:0.0000020937,A/cat/CO/25-003476-003-original/2025:0.0000020937)99:0.0003875739,A/PetFood/CO/25-003807-021-original/2025:0.0000020937)100:0.0021029496)69:0.0000735922,(A/cat/CO/24-036990-001-original/2024:0.0000775853,(A/cat/CO/24-037506-001-original/2024:0.0000020937,A/Turkey/MN/24-017049-003-original/2024:0.0000020937)83:0.0000020937)100:0.0007775910)98:0.0009330053,((A/cat/CO/24-020717-001-original/2024:0.0000020937,A/cat/CO/24-020794-001-original/2024:0.0000020937)99:0.0003110976,(A/cat/CO/24-021510-001-original/2024:0.0000020937,A/cat/CO/24-021510-002-original/2024:0.0000020937)93:0.0001550701)92:0.0001550168)76:0.0000020937,(A/cattle/CO/24-022179-001-original/2024:0.0001547005,A/cat/CO/24-020793-001-original/2024:0.0001550351)97:0.0002329229);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-tree.treefile -p /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-tree.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-supermatrix.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/all/case-supermatrix.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Nov 13 21:59:17 2026
+Total CPU time used: 34.791416 seconds (0h:0m:34s)
+Total wall-clock time used: 33.37080503 seconds (0h:0m:33s)
+

@@ -1,0 +1,11 @@
+cluster_pair	pairs	min	median	max
+A-A	15	0	9	31
+A-B	24	23	36.5	51
+A-C	36	991	1001	1012
+A-unassigned	2358	1	19	1059
+B-B	6	0	43	44
+B-C	24	996	1011.5	1026
+B-unassigned	1572	1	46	1064
+C-C	15	2	53	86
+C-unassigned	2358	15	1000	1128
+unassigned-unassigned	77028	0	41	1134

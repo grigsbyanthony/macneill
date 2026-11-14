@@ -1,0 +1,92 @@
+column	genome_x	segment	position	consensus	alternatives	carriers	host	carrier_hosts	cat_cases	effect
+53	53	PB2	30	A	G	2	Domestic cat	Domestic cat 2		synonymous
+119	119	PB2	96	A	G	2	Domestic cat	Domestic cat 2		synonymous
+188	188	PB2	165	T	C	3	Wild bird	Wild bird 3		synonymous
+252	252	PB2	229	T	C	6	Wild bird	Wild bird 4; Domestic cat 2		synonymous
+254	254	PB2	231	A	C	6	Wild bird	Wild bird 4; Domestic cat 2		synonymous
+338	338	PB2	315	A	G	3	Wild bird	Wild bird 3		synonymous
+834	834	PB2	811	A	G	2	Domestic cat	Domestic cat 2		non-synonymous
+1037	1037	PB2	1014	C	T	2	Domestic cat	Domestic cat 2		synonymous
+1052	1052	PB2	1029	A	C	3	Wild bird	Wild bird 3		non-synonymous
+1343	1343	PB2	1320	G	A	2	Domestic cat	Domestic cat 2		synonymous
+1527	1527	PB2	1504	T	C	2	Wild bird	Wild bird 2		synonymous
+1538	1538	PB2	1515	A	G	2	Domestic cat	Domestic cat 2		synonymous
+1652	1652	PB2	1629	G	A	2	Wild bird	Wild bird 2		synonymous
+1728	1728	PB2	1705	A	T	5	Several hosts	Wild bird 3; Domestic cat 2		non-synonymous
+1814	1814	PB2	1791	G	A	2	Wild bird	Wild bird 2		synonymous
+1842	1842	PB2	1819	C	A	3	Wild bird	Wild bird 3		non-synonymous
+1868	1868	PB2	1845	A	G	3	Wild bird	Wild bird 3		non-synonymous
+1970	1970	PB2	1947	A	C	2	Domestic cat	Domestic cat 2		non-synonymous
+2093	2093	PB2	2070	T	C	2	Wild bird	Wild bird 2		synonymous
+2225	2225	PB2	2202	G	A	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+2303	2303	PB2	2280	G	A	2	Wild bird	Wild bird 2		synonymous
+2450	2590	PB1	93	C	T	2	Wild bird	Wild bird 2		synonymous
+2663	2803	PB1	306	C	A	2	Wild bird	Wild bird 2		synonymous
+3152	3292	PB1	795	A	G	2	Domestic cat	Domestic cat 2		synonymous
+3179	3319	PB1	822	A	T	2	Wild bird	Wild bird 2		synonymous
+3299	3439	PB1	942	T	C	2	Wild bird	Wild bird 2		synonymous
+3311	3451	PB1	954	T	C	2	Domestic cat	Domestic cat 2		synonymous
+3635	3775	PB1	1278	A	G	3	Wild bird	Wild bird 3		synonymous
+3866	4006	PB1	1509	C	T	2	Wild bird	Wild bird 2		synonymous
+4178	4318	PB1	1821	G	A	2	Wild bird	Wild bird 2		synonymous
+4190	4330	PB1	1833	A	G	2	Wild bird	Wild bird 2		synonymous
+4357	4497	PB1	2000	T	C	5	Several hosts	Wild bird 3; Domestic cat 2		non-synonymous
+4391	4531	PB1	2034	C	T	2	Wild bird	Wild bird 2		synonymous
+4872	5152	PA	37	A	G	5	Several hosts	Wild bird 3; Domestic cat 2		non-synonymous
+5036	5316	PA	201	T	C	2	Wild bird	Wild bird 2		synonymous
+5117	5397	PA	282	C	A,T	2	Wild bird	Wild bird 2		synonymous
+5480	5760	PA	645	C	T	2	Wild bird	Wild bird 2		synonymous
+5705	5985	PA	870	G	A	2	Wild bird	Wild bird 2		synonymous
+5882	6162	PA	1047	A	G	2	Wild bird	Wild bird 2		synonymous
+5960	6240	PA	1125	T	C	2	Domestic cat	Domestic cat 2		synonymous
+5972	6252	PA	1137	G	A	2	Wild bird	Wild bird 2		synonymous
+5975	6255	PA	1140	C	T	2	Domestic cat	Domestic cat 2		synonymous
+6395	6675	PA	1560	T	C	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+6683	6963	PA	1848	A	G	3	Wild bird	Wild bird 3		synonymous
+7094	7514	HA	22	C	A	2	Wild bird	Wild bird 2		non-synonymous
+7207	7627	HA	135	T	C	9	Wild bird	Wild bird 7; Domestic cat 2		synonymous
+7668	8088	HA	596	A	G	2	Wild bird	Wild bird 2		non-synonymous
+7855	8275	HA	783	A	G	2	Wild bird	Wild bird 2		synonymous
+7891	8311	HA	819	C	T	3	Wild bird	Wild bird 3		synonymous
+7906	8326	HA	834	A	G	2	Wild bird	Wild bird 2		synonymous
+8248	8668	HA	1176	A	G	2	Wild bird	Wild bird 2		synonymous
+8368	8788	HA	1296	A	G	2	Domestic cat	Domestic cat 2		synonymous
+8434	8854	HA	1362	T	C	2	Wild bird	Wild bird 2		synonymous
+8504	8924	HA	1432	A	C	9	Wild bird	Wild bird 7; Domestic cat 2		non-synonymous
+8515	8935	HA	1443	C	T	2	Wild bird	Wild bird 2		synonymous
+8542	8962	HA	1470	T	C	3	Wild bird	Wild bird 3		synonymous
+8602	9022	HA	1530	A	G	7	Wild bird	Wild bird 7		synonymous
+9123	9683	NP	258	G	A	2	Wild bird	Wild bird 2		synonymous
+9315	9875	NP	450	G	A	9	Wild bird	Wild bird 7; Domestic cat 2		synonymous
+9390	9950	NP	525	A	G	3	Wild bird	Wild bird 3		synonymous
+9435	9995	NP	570	G	A	3	Domestic cat	Domestic cat 2; Wild bird 1		synonymous
+9678	10238	NP	813	T	C	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+9722	10282	NP	857	T	C,G	11	Wild bird	Wild bird 9; Domestic cat 2		non-synonymous
+9753	10313	NP	888	T	C	2	Domestic cat	Domestic cat 2		synonymous
+9816	10376	NP	951	A	G	2	Domestic cat	Domestic cat 2		synonymous
+10068	10628	NP	1203	A	G	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+10077	10637	NP	1212	A	G	2	Wild bird	Wild bird 2		synonymous
+10460	11160	NA	55	A	G	2	Wild bird	Wild bird 2		non-synonymous
+10535	11235	NA	130	T	C	2	Domestic cat	Domestic cat 2		non-synonymous
+10654	11354	NA	249	A	G	2	Domestic cat	Domestic cat 2		synonymous
+10897	11597	NA	492	T	G	2	Wild bird	Wild bird 2		synonymous
+10909	11609	NA	504	C	T	2	Domestic cat	Domestic cat 2		synonymous
+10915	11615	NA	510	C	T	2	Wild bird	Wild bird 2		synonymous
+10993	11693	NA	588	T	A	3	Wild bird	Wild bird 3		synonymous
+11332	12032	NA	927	T	C	7	Wild bird	Wild bird 7		synonymous
+11422	12122	NA	1017	C	T	7	Wild bird	Wild bird 7		synonymous
+11473	12173	NA	1068	G	A	2	Wild bird	Wild bird 2		synonymous
+11650	12350	NA	1245	A	G	2	Wild bird	Wild bird 2		synonymous
+12319	13159	M	307	C	T	9	Wild bird	Wild bird 7; Domestic cat 2		synonymous
+12393	13233	M	381	T	C	3	Wild bird	Wild bird 3		synonymous
+12531	13371	M	519	C	T	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+12597	13437	M	585	G	A	2	Wild bird	Wild bird 2		synonymous
+12663	13503	M	651	G	A	2	Wild bird	Wild bird 2		synonymous
+12843	13683	M	831	T	C	2	Domestic cat	Domestic cat 2		non-coding
+12966	13806	M	954	G	A	5	Several hosts	Wild bird 3; Domestic cat 2		non-coding
+13155	14135	NS	119	A	G	2	Domestic cat	Domestic cat 2		non-synonymous
+13194	14174	NS	158	A	G	2	Wild bird	Wild bird 2		non-synonymous
+13198	14178	NS	162	C	T	2	Wild bird	Wild bird 2		synonymous
+13369	14349	NS	333	G	T	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+13417	14397	NS	381	C	T	5	Several hosts	Wild bird 3; Domestic cat 2		synonymous
+13462	14442	NS	426	G	A	7	Wild bird	Wild bird 7		synonymous

@@ -1,0 +1,260 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Anthonys-MacBook-Pro-97.local (SSE4.2, 18 GB RAM)
+Command: /opt/homebrew/Caskroom/miniforge/base/envs/blaire-phylo/bin/iqtree3 -s /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-supermatrix.fasta -p /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-partitions.nex --prefix /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree --seqtype DNA -m GTR+F+I+G4 -B 1000 --alrt 1000 -T AUTO --seed 12345 --redo
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 13 21:58:01 2026
+Kernel:  SSE2 - auto-detect threads (12 CPU cores detected)
+
+Reading partition model file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-partitions.nex ...
+Partition file is in NEXUS format...
+Reading alignment file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.0033989 secs using 85.5% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00587296 secs using 62.81% CPU
+Alignment has 26 sequences with 13136 columns, 168 distinct patterns
+1097 parsimony-informative, 83 singleton sites, 11956 constant sites
+                                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.98295e-05 secs using 66.23% CPU
+   1  A/cattle/CO/24-017148-007-original/2024         0.00%    passed     99.83%
+   2  A/cattle/CO/24-017811-003-original/2024         0.00%    passed     99.95%
+   3  A/cattle/CO/24-022179-001-original/2024         0.00%    passed     99.78%
+   4  A/cat/CO/24-016313-001-original/2024            0.00%    passed     99.96%
+   5  A/cat/CO/24-020717-001-original/2024            0.00%    passed     99.83%
+   6  A/cat/CO/24-020793-001-original/2024            0.00%    passed     99.73%
+   7  A/cat/CO/24-020794-001-original/2024            0.00%    passed     99.83%
+   8  A/cat/CO/24-021510-001-original/2024            0.00%    passed     99.90%
+   9  A/cat/CO/24-021510-002-original/2024            0.00%    passed     99.90%
+  10  A/cat/CO/24-036990-001-original/2024            0.00%    passed     99.75%
+  11  A/cat/CO/24-037506-001-original/2024            0.00%    passed     99.82%
+  12  A/cat/CO/25-003476-002-original-repeat2/2025    0.00%    passed     99.98%
+  13  A/cat/CO/25-003476-003-original/2025            0.00%    passed     99.98%
+  14  A/Tiger/CO/24-038268-001-original/2024          0.00%    passed     99.87%
+  15  A/PetFood/CO/25-003807-021-original/2025        0.00%    passed     99.97%
+  16  A/cat/CO/25-005222-001-original-repeat2/2025    0.00%    passed     99.80%
+  17  A/cat/CO/25-006047-001-original/2025            0.00%    passed     99.60%
+  18  A/cat/CO/25-009632-001-original/2025            0.00%    passed     99.93%
+  19  A/cat/CO/25-009632-004-original/2025            0.00%    passed     99.96%
+  20  A/cat/OH/25-010610-001-original/2025            0.00%    passed     99.85%
+  21  A/cat/CO/25-012358-001-original/2025            0.00%    passed     99.06%
+  22  A/Snow                                          0.00%    passed     99.87%
+  23  A/Canada                                        0.00%    passed     99.29%
+  24  A/Turkey                                        0.00%    passed     99.83%
+  25  A/Great                                         0.00%    passed     99.92%
+  26  A/Red-tailed                                    0.00%    passed     99.60%
+****  TOTAL                                           0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+Loading 8 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	26	2280	92	2173	GTR+F+I+G4	PB2
+2	DNA	26	2274	296	1966	GTR+F+I+G4	PB1
+3	DNA	26	2151	263	1870	GTR+F+I+G4	PA
+4	DNA	26	1704	72	1619	GTR+F+I+G4	HA
+5	DNA	26	1497	45	1444	GTR+F+I+G4	NP
+6	DNA	26	1410	225	1177	GTR+F+I+G4	NA
+7	DNA	26	982	29	950	GTR+F+I+G4	M
+8	DNA	26	838	75	757	GTR+F+I+G4	NS
+Degree of missing data: 0.000
+NOTE: A/cat/CO/24-020794-001-original/2024 is identical to A/cat/CO/24-020717-001-original/2024 but kept for subsequent analysis
+NOTE: A/cat/CO/24-021510-002-original/2024 is identical to A/cat/CO/24-021510-001-original/2024 but kept for subsequent analysis
+NOTE: A/cat/CO/25-003476-003-original/2025 is identical to A/cat/CO/25-003476-002-original-repeat2/2025 but kept for subsequent analysis
+Creating fast initial parsimony tree by random order stepwise addition...
+0.121 seconds, parsimony score: 1230 (based on 1180 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+788 trees examined
+Threads: 1 / Time: 12.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -39646
+Threads: 2 / Time: 14.504 sec / Speedup: 0.828 / Efficiency: 41% / LogL: -39646
+Determining AUTO threadcount: done in 26.5105 secs using 104.9% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -24861.501
+Current log-likelihood at step 1: -24035.643
+Current log-likelihood at step 2: -23975.910
+Current log-likelihood at step 3: -23973.244
+Current log-likelihood at step 4: -23972.985
+Current log-likelihood at step 5: -23971.686
+Current log-likelihood at step 6: -23971.092
+Current log-likelihood at step 7: -23970.926
+Current log-likelihood at step 8: -23970.737
+Current log-likelihood at step 9: -23970.419
+Current log-likelihood at step 10: -23970.018
+Current log-likelihood at step 11: -23969.298
+Current log-likelihood at step 12: -23969.018
+Current log-likelihood at step 13: -23968.955
+Partition-specific rates:  0.556 1.448 1.406 0.520 0.447 1.919 0.324 1.159
+Parameters optimization took 12 rounds (0.268 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000207901 secs using 17.8% CPU
+Computing ML distances took 0.000455 sec (of wall-clock time) 0.000050 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 1.78814e-05 secs using 50.33% CPU
+Constructing RapidNJ tree: done in 3.60012e-05 secs using 130.6% CPU
+Computing RapidNJ tree took 0.000079 sec (of wall-clock time) 0.000071 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -42089.928
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.116 second
+Computing log-likelihood of 98 initial trees ... 0.253 seconds
+Current best score: -23968.955
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -23968.955
+Current log-likelihood at step 1: -23968.905
+Parameters optimization took 0 rounds (0.014 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -23968.905
+Iteration 10 / LogL: -23968.932 / Time: 0h:0m:27s
+UPDATE BEST LOG-LIKELIHOOD: -23968.902
+UPDATE BEST LOG-LIKELIHOOD: -23968.898
+Iteration 20 / LogL: -23968.919 / Time: 0h:0m:28s
+Finish initializing candidate tree set (2)
+Current best tree score: -23968.898 / CPU time: 1.102
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -23981.456 / Time: 0h:0m:28s (0h:1m:9s left)
+Iteration 40 / LogL: -23968.986 / Time: 0h:0m:29s (0h:0m:45s left)
+Iteration 50 / LogL: -23968.920 / Time: 0h:0m:29s (0h:0m:30s left)
+Log-likelihood cutoff on original alignment: -24028.410
+Iteration 60 / LogL: -23969.015 / Time: 0h:0m:30s (0h:0m:20s left)
+Iteration 70 / LogL: -23968.958 / Time: 0h:0m:30s (0h:0m:13s left)
+Iteration 80 / LogL: -24036.630 / Time: 0h:0m:31s (0h:0m:8s left)
+Iteration 90 / LogL: -23969.011 / Time: 0h:0m:31s (0h:0m:3s left)
+Iteration 100 / LogL: -23968.997 / Time: 0h:0m:32s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -24028.410
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:32s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -23968.898
+Current log-likelihood at step 1: -23968.840
+Current log-likelihood at step 2: -23968.776
+Current log-likelihood at step 3: -23968.711
+Current log-likelihood at step 4: -23968.677
+Current log-likelihood at step 5: -23968.518
+Current log-likelihood at step 6: -23968.472
+Current log-likelihood at step 7: -23968.445
+Current log-likelihood at step 8: -23968.418
+Current log-likelihood at step 9: -23968.391
+Current log-likelihood at step 10: -23968.366
+Current log-likelihood at step 11: -23968.343
+Current log-likelihood at step 12: -23968.315
+Current log-likelihood at step 13: -23968.290
+Current log-likelihood at step 14: -23968.265
+Current log-likelihood at step 15: -23968.243
+Current log-likelihood at step 16: -23968.221
+Current log-likelihood at step 17: -23968.198
+Current log-likelihood at step 18: -23968.174
+Current log-likelihood at step 19: -23968.152
+Current log-likelihood at step 20: -23968.132
+Current log-likelihood at step 21: -23968.110
+Current log-likelihood at step 22: -23968.091
+Current log-likelihood at step 23: -23968.073
+Current log-likelihood at step 24: -23968.054
+Current log-likelihood at step 25: -23968.034
+Current log-likelihood at step 26: -23968.016
+Current log-likelihood at step 27: -23967.969
+Current log-likelihood at step 28: -23967.944
+Current log-likelihood at step 29: -23967.923
+Current log-likelihood at step 30: -23967.906
+Current log-likelihood at step 31: -23967.880
+Current log-likelihood at step 32: -23967.477
+Current log-likelihood at step 33: -23967.460
+Current log-likelihood at step 34: -23967.436
+Current log-likelihood at step 35: -23967.412
+Current log-likelihood at step 36: -23967.365
+Current log-likelihood at step 37: -23967.324
+Current log-likelihood at step 38: -23967.310
+Current log-likelihood at step 39: -23967.296
+Current log-likelihood at step 40: -23967.282
+Current log-likelihood at step 41: -23967.269
+Current log-likelihood at step 42: -23967.255
+Current log-likelihood at step 43: -23967.242
+Current log-likelihood at step 44: -23967.229
+Current log-likelihood at step 45: -23967.216
+Current log-likelihood at step 46: -23967.203
+Current log-likelihood at step 47: -23967.191
+Current log-likelihood at step 48: -23967.178
+Current log-likelihood at step 49: -23967.166
+Current log-likelihood at step 50: -23967.154
+Current log-likelihood at step 51: -23967.141
+Current log-likelihood at step 52: -23967.129
+Current log-likelihood at step 53: -23967.118
+Current log-likelihood at step 54: -23967.106
+Current log-likelihood at step 55: -23967.094
+Current log-likelihood at step 56: -23967.082
+Current log-likelihood at step 57: -23967.071
+Current log-likelihood at step 58: -23967.060
+Current log-likelihood at step 59: -23967.049
+Current log-likelihood at step 60: -23967.038
+Current log-likelihood at step 61: -23967.027
+Current log-likelihood at step 62: -23967.016
+Current log-likelihood at step 63: -23967.005
+Current log-likelihood at step 64: -23966.995
+Current log-likelihood at step 65: -23966.984
+Current log-likelihood at step 66: -23966.974
+Current log-likelihood at step 67: -23966.964
+Current log-likelihood at step 68: -23966.953
+Current log-likelihood at step 69: -23966.943
+Current log-likelihood at step 70: -23966.933
+Partition-specific rates:  0.550 1.437 1.403 0.522 0.462 1.928 0.327 1.165
+Parameters optimization took 69 rounds (0.945 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.best_model.nex
+BEST SCORE FOUND : -23966.933
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.277 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.splits.nex
+Total tree length: 0.111
+
+Total number of iterations: 102
+CPU time used for tree search: 5.272 sec (0h:0m:5s)
+Wall-clock time used for tree search: 5.316 sec (0h:0m:5s)
+Total CPU time used: 34.683 sec (0h:0m:34s)
+Total wall-clock time used: 33.513 sec (0h:0m:33s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.splits.nex...
+26 taxa and 108 splits.
+Consensus tree written to /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.contree
+Reading input trees file /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.contree
+Log-likelihood of consensus tree: -23967.137
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.iqtree
+  Maximum-likelihood tree:       /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.treefile
+  Likelihood distances:          /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.splits.nex
+  Consensus tree:                /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.contree
+  Screen log file:               /Users/grigsbyanthony/Projects/Collaborations/blaire-scripts-2026/results/25_build-case-tree/co/case-tree.log
+
+Date and Time: Fri Nov 13 21:58:34 2026

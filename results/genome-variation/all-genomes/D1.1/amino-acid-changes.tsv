@@ -1,0 +1,161 @@
+segment	gene	codon	change	genome_x	carriers	host	carrier_hosts	clusters	cat_cases
+PA	PA	222	D222N	5780	45	Several hosts	Domestic cat 24; Wild bird 18; Domestic poultry 3	C	
+PA	PA	421	I421S	6377	41	Several hosts	Domestic cat 23; Wild bird 15; Domestic poultry 3	C	
+NA	NA	272	S272P	11920	41	Several hosts	Domestic cat 23; Wild bird 15; Domestic poultry 3	C	
+M	M1	242	K242N	13577	39	Wild bird	Wild bird 26; Domestic cat 7; Domestic poultry 6	C	
+PB1	PB1	96	E96D	2784	38	Wild bird	Wild bird 26; Domestic cat 6; Domestic poultry 6	C	
+NA	NA	453	V453A	12463	24	Wild bird	Wild bird 18; Domestic cat 6	C	
+NS	NS1	129	I129T	14402	24	Wild bird	Wild bird 18; Domestic cat 6	C	
+PB2	PB2	627	E627K	1903	22	Domestic cat	Domestic cat 21; Wild bird 1	C	
+PA	PA	266	R266C	5912	18	Domestic poultry	Domestic poultry 12; Wild bird 4; Domestic cat 2		
+HA	HA	511	A511S	9024	17	Domestic poultry	Domestic poultry 12; Wild bird 5		
+PB2	PB2	66	M66T	220	16	Domestic poultry	Domestic poultry 12; Wild bird 4		
+HA	HA	548	M548L	9135	16	Domestic poultry	Domestic poultry 12; Wild bird 4		
+M	M1	227	A227T	13532	16	Domestic poultry	Domestic poultry 12; Wild bird 4		
+PB2	PB2	113	K113N	361	12	Domestic cat	Domestic cat 8; Wild bird 4	C	
+PB1	PB1	377	D377E	3627	12	Domestic poultry	Domestic poultry 12		
+NA	NA	419	R419S	12361	12	Domestic poultry	Domestic poultry 12		
+M	M1	37	T37I	12962	12	Domestic poultry	Domestic poultry 12		
+NS	NS1	226	I226T	14693	12	Domestic poultry	Domestic poultry 12		
+NP	NP	186	V186I	9982	11	Several hosts	Wild bird 7; Domestic poultry 4		
+NA	NA	55	T55I	11269	11	Several hosts	Wild bird 7; Domestic poultry 4		
+PB2	PB2	354	I354V	1084	9	Several hosts	Wild bird 5; Domestic poultry 4		
+PB1	PB1	361	S361N	3579	9	Several hosts	Wild bird 5; Domestic cat 4		
+PA	PA	58	G58D	5288	9	Several hosts	Wild bird 5; Domestic poultry 4		
+PA	PA	618	T618K	6968	9	Several hosts	Wild bird 5; Domestic poultry 4		
+HA	HA	548	M548I	9135	9	Several hosts	Wild bird 5; Domestic poultry 4		
+NS	NS1	139	D139N	14432	9	Domestic cat	Domestic cat 8; Wild bird 1		
+PB1	PB1	726	A726T	4674	8	Wild bird	Wild bird 8		
+NA	NA	16	V16A	11152	8	Wild bird	Wild bird 6; Domestic cat 2	C	
+NA	NA	54	I54T	11266	8	Wild bird	Wild bird 6; Domestic poultry 2		
+NA	NA	418	M418I	12358	8	Domestic cat	Domestic cat 8		
+PB2	PB2	67	I67V	223	7	Wild bird	Wild bird 5; Domestic poultry 2		
+PB2	PB2	319	I319V	979	7	Wild bird	Wild bird 5; Domestic poultry 2		
+NA	NA	19	I19T	11161	7	Wild bird	Wild bird 5; Domestic cat 2	C	
+NA	NA	256	F256L	11872	7	Several hosts	Wild bird 4; Domestic cat 3		
+PB2	PB2	249	E249G	769	6	Domestic cat	Domestic cat 6		
+PB2	PB2	701	D701N	2125	6	Domestic cat	Domestic cat 6	C	
+PB1	PB1	135	R135K	2901	6	Domestic cat	Domestic cat 6		
+PB1	PB1	216	S216G	3144	6	Several hosts	Wild bird 3; Domestic poultry 2; Domestic cat 1		
+PB1	PB1	618	E618D	4350	6	Domestic cat	Domestic cat 6		
+HA	HA	18	Q18R	7545	6	Domestic cat	Domestic cat 6		
+NA	NA	7	I7T	11125	6	Wild bird	Wild bird 6		
+NA	NA	397	T397M	12295	6	Domestic cat	Domestic cat 6		
+NS	NS1	127	N127T	14396	6	Wild bird	Wild bird 4; Domestic cat 2		
+PB2	PB2	69	E69K	229	5	Domestic poultry	Domestic poultry 4; Domestic cat 1	C	
+PB2	PB2	185	I185T	577	5	Domestic cat	Domestic cat 5		
+PB1	PB1	645	V645M	4431	5	Domestic cat	Domestic cat 5		
+PB1	PB1	737	K737R	4707	5	Several hosts	Wild bird 3; Domestic poultry 2		
+PA	PA	28	P28S	5198	5	Several hosts	Domestic cat 3; Wild bird 2	C	
+HA	HA	285	V285L	8346	5	Several hosts	Domestic cat 3; Wild bird 2		
+NP	NP	287	S287N	10285	5	Several hosts	Wild bird 3; Domestic poultry 2		
+NA	NA	3	P3S	11113	5	Several hosts	Domestic poultry 2; Wild bird 2; Domestic cat 1		
+NA	NA	7	I7M	11125	5	Domestic cat	Domestic cat 4; Wild bird 1		
+NA	NA	75	I75V	11329	5	Domestic cat	Domestic cat 5		
+NA	NA	77	E77G	11335	5	Several hosts	Wild bird 3; Domestic poultry 2		
+NS	NS1	77	L77I	14246	5	Domestic cat	Domestic cat 5		
+PB2	PB2	188	E188G	586	4	Several hosts	Domestic poultry 2; Wild bird 2		
+PB2	PB2	192	E192G	598	4	Domestic poultry	Domestic poultry 4		
+PB1	PB1	11	K11R	2529	4	Domestic poultry	Domestic poultry 4		
+PA	PA	114	E114K	5456	4	Domestic poultry	Domestic poultry 4		
+PA	PA	346	Q346R	6152	4	Domestic poultry	Domestic poultry 4		
+PA	PA	463	V463I	6503	4	Domestic cat	Domestic cat 4		
+NA	NA	8	I8T	11128	4	Several hosts	Domestic cat 2; Wild bird 2	C	
+NA	NA	432	K432R	12400	4	Several hosts	Wild bird 2; Domestic cat 1; Domestic poultry 1		
+NS	NS1	111	V111A	14348	4	Several hosts	Domestic cat 2; Domestic poultry 2		
+NS	NS1	137	I137G	14426	4	Domestic poultry	Domestic poultry 4		
+PB2	PB2	679	P679S	2059	3	Wild bird	Wild bird 3		
+PB1	PB1	174	M174T	3018	3	Domestic poultry	Domestic poultry 2; Wild bird 1		
+PB1	PB1	215	R215M	3141	3	Wild bird	Wild bird 3		
+PA	PA	351	E351G	6167	3	Wild bird	Wild bird 2; Domestic poultry 1		
+PA	PA	360	M360I	6194	3	Wild bird	Wild bird 2; Domestic cat 1		
+PA	PA	362	K362R	6200	3	Wild bird	Wild bird 2; Domestic cat 1	C	
+PA	PA	489	C489S	6581	3	Domestic cat	Domestic cat 2; Wild bird 1		
+HA	HA	214	I214V	8133	3	Domestic cat	Domestic cat 3		
+HA	HA	284	G284E	8343	3	Wild bird	Wild bird 2; Domestic cat 1	C	
+NP	NP	375	D375N	10549	3	Wild bird	Wild bird 3		
+NA	NA	16	V16I	11152	3	Domestic cat	Domestic cat 3		
+NA	NA	128	E128G	11488	3	Domestic cat	Domestic cat 2; Wild bird 1	C	
+NA	NA	254	K254R	11866	3	Wild bird	Wild bird 2; Domestic cat 1		
+NA	NA	270	N270S	11914	3	Wild bird	Wild bird 3		
+NA	NA	434	N434D	12406	3	Domestic poultry	Domestic poultry 2; Wild bird 1		
+NA	NA	435	T435M	12409	3	Domestic poultry	Domestic poultry 2; Wild bird 1		
+NA	NA	448	V448I	12448	3	Wild bird	Wild bird 3		
+M	M1	42	L42I	12977	3	Domestic poultry	Domestic poultry 2; Wild bird 1		
+M	M1	166	A166S	13349	3	Domestic cat	Domestic cat 2; Wild bird 1	C	
+NS	NS1	27	L27M	14096	3	Domestic cat	Domestic cat 2; Wild bird 1		
+PB2	PB2	2	E2D	28	2	Domestic cat	Domestic cat 2		
+PB2	PB2	6	E6K	40	2	Domestic cat	Domestic cat 2		
+PB2	PB2	76	T76I	250	2	Domestic cat	Domestic cat 2		
+PB2	PB2	191	E191K	595	2	Several hosts	Domestic cat 1; Domestic poultry 1		
+PB2	PB2	199	A199T	619	2	Wild bird	Wild bird 2		
+PB2	PB2	448	N448S	1366	2	Wild bird	Wild bird 2		
+PB2	PB2	467	M467L	1423	2	Wild bird	Wild bird 2		
+PB2	PB2	495	V495I	1507	2	Wild bird	Wild bird 2		
+PB2	PB2	508	R508Q	1546	2	Wild bird	Wild bird 2		
+PB2	PB2	515	P515S	1567	2	Wild bird	Wild bird 2		
+PB2	PB2	584	V584I	1774	2	Several hosts	Domestic cat 1; Wild bird 1		
+PB2	PB2	679	P679Q	2059	2	Domestic cat	Domestic cat 2		
+PB1	PB1	198	K198R	3090	2	Wild bird	Wild bird 2		
+PB1	PB1	260	R260K	3276	2	Domestic cat	Domestic cat 2		
+PB1	PB1	331	E331G	3489	2	Domestic cat	Domestic cat 2	C	
+PB1	PB1	375	N375T	3621	2	Domestic poultry	Domestic poultry 2		
+PB1	PB1	571	R571G	4209	2	Domestic cat	Domestic cat 2	C	
+PB1	PB1	577	K577E	4227	2	Domestic cat	Domestic cat 2		
+PB1	PB1	611	L611M	4329	2	Wild bird	Wild bird 2		
+PB1	PB1	632	V632A	4392	2	Domestic poultry	Domestic poultry 2		
+PB1	PB1	638	E638G	4410	2	Wild bird	Wild bird 2		
+PB1	PB1	640	V640I	4416	2	Wild bird	Wild bird 2		
+PB1	PB1	694	S694N	4578	2	Wild bird	Wild bird 2		
+PA	PA	27	D27N	5195	2	Wild bird	Wild bird 2		
+PA	PA	37	A37S	5225	2	Several hosts	Domestic cat 1; Wild bird 1		
+PA	PA	61	I61M	5297	2	Several hosts	Domestic cat 1; Wild bird 1	C	
+PA	PA	153	E153G	5573	2	Domestic cat	Domestic cat 2		
+PA	PA	158	K158E	5588	2	Wild bird	Wild bird 2		
+PA	PA	186	G186S	5672	2	Wild bird	Wild bird 2		
+PA	PA	222	D222E	5780	2	Wild bird	Wild bird 2		
+PA	PA	226	L226F	5792	2	Wild bird	Wild bird 2		
+PA	PA	347	D347G	6155	2	Wild bird	Wild bird 2		
+PA	PA	408	Q408L	6338	2	Domestic cat	Domestic cat 2		
+PA	PA	426	D426E	6392	2	Domestic cat	Domestic cat 2		
+PA	PA	534	P534L	6716	2	Several hosts	Domestic cat 1; Wild bird 1		
+PA	PA	538	E538G	6728	2	Domestic cat	Domestic cat 2		
+PA	PA	561	M561I	6797	2	Several hosts	Domestic cat 1; Wild bird 1		
+PA	PA	618	T618M	6968	2	Wild bird	Wild bird 2		
+PA	PA	664	K664R	7106	2	Wild bird	Wild bird 2		
+HA	HA	13	L13I	7530	2	Wild bird	Wild bird 2		
+HA	HA	52	A52T	7647	2	Wild bird	Wild bird 2		
+HA	HA	167	I167V	7992	2	Wild bird	Wild bird 2		
+HA	HA	177	K177R	8022	2	Domestic cat	Domestic cat 2	C	
+HA	HA	518	I518V	9045	2	Domestic cat	Domestic cat 2		
+NP	NP	48	K48R	9568	2	Several hosts	Domestic cat 1; Domestic poultry 1		
+NP	NP	211	N211S	10057	2	Domestic cat	Domestic cat 2		
+NP	NP	215	T215A	10069	2	Domestic poultry	Domestic poultry 2		
+NP	NP	485	G485R	10879	2	Domestic cat	Domestic cat 2		
+NA	NA	20	I20T	11164	2	Wild bird	Wild bird 2		
+NA	NA	32	I32L	11200	2	Wild bird	Wild bird 2		
+NA	NA	80	V80I	11344	2	Domestic cat	Domestic cat 2		
+NA	NA	81	D81V	11347	2	Domestic cat	Domestic cat 2		
+NA	NA	83	V83A	11353	2	Several hosts	Domestic cat 1; Wild bird 1	C	
+NA	NA	143	K143N	11533	2	Wild bird	Wild bird 2		
+NA	NA	179	W179L	11641	2	Wild bird	Wild bird 2		
+NA	NA	221	S221N	11767	2	Domestic poultry	Domestic poultry 2		
+NA	NA	257	R257K	11875	2	Wild bird	Wild bird 2		
+NA	NA	258	I258M	11878	2	Several hosts	Domestic cat 1; Wild bird 1	C	
+NA	NA	331	G331R	12097	2	Several hosts	Domestic cat 1; Wild bird 1		
+NA	NA	339	S339A	12121	2	Wild bird	Wild bird 2		
+NA	NA	344	Y344C	12136	2	Wild bird	Wild bird 2		
+NA	NA	357	V357I	12175	2	Wild bird	Wild bird 2		
+NA	NA	367	S367L	12205	2	Domestic cat	Domestic cat 2	C	
+NA	NA	378	N378D	12238	2	Wild bird	Wild bird 2		
+NA	NA	454	G454V	12466	2	Several hosts	Domestic cat 1; Wild bird 1		
+NA	NA	454	G454S	12466	2	Domestic poultry	Domestic poultry 2		
+NA	NA	458	P458S	12478	2	Domestic cat	Domestic cat 2	C	
+NS	NS1	39	D39E	14132	2	Domestic cat	Domestic cat 2		
+NS	NS1	83	P83S	14264	2	Domestic cat	Domestic cat 2	C	
+NS	NS1	111	V111T	14348	2	Wild bird	Wild bird 2		
+NS	NS1	112	A112V	14351	2	Wild bird	Wild bird 2		
+NS	NS1	125	D125N	14390	2	Domestic cat	Domestic cat 2		
+NS	NS1	129	I129M	14402	2	Domestic cat	Domestic cat 2		
+NS	NS1	213	P213L	14654	2	Several hosts	Domestic cat 1; Wild bird 1		
+NS	NS1	219	K219E	14672	2	Wild bird	Wild bird 2		

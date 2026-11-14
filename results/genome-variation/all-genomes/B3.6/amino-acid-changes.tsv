@@ -1,0 +1,17 @@
+segment	gene	codon	change	genome_x	carriers	host	carrier_hosts	clusters	cat_cases
+HA	HA	478	M478L	8925	9	Wild bird	Wild bird 7; Domestic cat 2		
+NP	NP	286	V286A	10282	9	Wild bird	Wild bird 7; Domestic cat 2		
+PB2	PB2	569	T569S	1729	5	Several hosts	Wild bird 3; Domestic cat 2		
+PB1	PB1	667	I667T	4497	5	Several hosts	Wild bird 3; Domestic cat 2		
+PA	PA	13	I13V	5153	5	Several hosts	Wild bird 3; Domestic cat 2		
+PB2	PB2	343	E343D	1051	3	Wild bird	Wild bird 3		
+PB2	PB2	607	L607I	1843	3	Wild bird	Wild bird 3		
+PB2	PB2	615	I615M	1867	3	Wild bird	Wild bird 3		
+PB2	PB2	271	T271A	835	2	Domestic cat	Domestic cat 2		
+HA	HA	8	L8I	7515	2	Wild bird	Wild bird 2		
+HA	HA	199	N199S	8088	2	Wild bird	Wild bird 2		
+NP	NP	286	V286G	10282	2	Wild bird	Wild bird 2		
+NA	NA	19	I19V	11161	2	Wild bird	Wild bird 2		
+NA	NA	44	Y44H	11236	2	Domestic cat	Domestic cat 2		
+NS	NS1	40	Q40R	14135	2	Domestic cat	Domestic cat 2		
+NS	NS1	53	D53G	14174	2	Wild bird	Wild bird 2		

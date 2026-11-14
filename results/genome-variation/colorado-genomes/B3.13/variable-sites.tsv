@@ -1,0 +1,244 @@
+column	genome_x	segment	position	consensus	alternatives	carriers	host	carrier_hosts	cat_cases	effect
+99	99	PB2	99	G	A	2	Several hosts	Domestic cattle 1; Domestic poultry 1		synonymous
+120	120	PB2	120	A	G	11	Domestic cattle	Domestic cattle 11		synonymous
+185	185	PB2	185	G	A	9	Domestic cattle	Domestic cattle 9		non-synonymous
+194	194	PB2	194	A	G	5	Wild mammal	Wild mammal 5		non-synonymous
+239	239	PB2	239	A	G	4	Domestic cattle	Domestic cattle 4		non-synonymous
+240	240	PB2	240	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+327	327	PB2	327	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+471	471	PB2	471	A	G	12	Domestic cattle	Domestic cattle 12		synonymous
+630	630	PB2	630	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+645	645	PB2	645	A	C	13	Domestic cattle	Domestic cattle 13		synonymous
+746	746	PB2	746	G	A	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	non-synonymous
+829	829	PB2	829	T	C	3	Domestic cattle	Domestic cattle 3		synonymous
+837	837	PB2	837	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+885	885	PB2	885	A	G	8	Domestic cattle	Domestic cattle 8		synonymous
+909	909	PB2	909	G	A	3	Domestic cattle	Domestic cattle 3		synonymous
+912	912	PB2	912	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+924	924	PB2	924	G	A	6	Domestic cattle	Domestic cattle 6		synonymous
+1026	1026	PB2	1026	A	G	2	Domestic cat	Domestic cat 2	9	synonymous
+1029	1029	PB2	1029	G	A	2	Domestic cat	Domestic cat 2	6	synonymous
+1044	1044	PB2	1044	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+1150	1150	PB2	1150	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+1158	1158	PB2	1158	A	G	2	Domestic cat	Domestic cat 2	3; 5	synonymous
+1179	1179	PB2	1179	A	G	3	Domestic cattle	Domestic cattle 3		synonymous
+1242	1242	PB2	1242	C	T	35	Domestic cattle	Domestic cattle 24; Pet food chicken 7; Domestic cat 3; Wild bird 1	1; 9	synonymous
+1275	1275	PB2	1275	T	C	6	Domestic cattle	Domestic cattle 6		synonymous
+1311	1311	PB2	1311	T	C	57	Several hosts	Domestic cattle 36; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+1352	1352	PB2	1352	T	C	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	non-synonymous
+1392	1392	PB2	1392	G	A	57	Domestic cattle	Domestic cattle 44; Pet food chicken 7; Domestic poultry 4; Domestic cat 2	9	synonymous
+1448	1448	PB2	1448	T	C	5	Domestic cattle	Domestic cattle 5		non-synonymous
+1477	1477	PB2	1477	C	A	2	Domestic cattle	Domestic cattle 2		synonymous
+1512	1512	PB2	1512	T	C	7	Domestic cattle	Domestic cattle 7		synonymous
+1766	1766	PB2	1766	G	A	4	Domestic cattle	Domestic cattle 4		non-synonymous
+1956	1956	PB2	1956	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+2009	2009	PB2	2009	A	G	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+2103	2103	PB2	2103	C	T	6	Domestic cattle	Domestic cattle 6		synonymous
+2193	2193	PB2	2193	G	A	12	Domestic cattle	Domestic cattle 12		synonymous
+2214	2214	PB2	2214	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+2218	2218	PB2	2218	G	A	20	Domestic cattle	Domestic cattle 20		non-synonymous
+2349	2489	PB1	69	G	T	3	Domestic poultry	Domestic poultry 3		synonymous
+2493	2633	PB1	213	A	G	6	Domestic cattle	Domestic cattle 6		synonymous
+2586	2726	PB1	306	C	A	3	Domestic poultry	Domestic poultry 3		synonymous
+2620	2760	PB1	340	G	A	20	Domestic cattle	Domestic cattle 20		non-synonymous
+2647	2787	PB1	367	A	G	12	Domestic cattle	Domestic cattle 12		non-synonymous
+2727	2867	PB1	447	C	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+2783	2923	PB1	503	A	G	5	Domestic cattle	Domestic cattle 5		non-synonymous
+2792	2932	PB1	512	T	C	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		non-synonymous
+2862	3002	PB1	582	C	T	3	Domestic cattle	Domestic cattle 2; Domestic cat 1	4	synonymous
+2868	3008	PB1	588	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+2898	3038	PB1	618	A	G	2	Domestic cat	Domestic cat 2	3; 5	synonymous
+2904	3044	PB1	624	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+3024	3164	PB1	744	C	T	20	Domestic cattle	Domestic cattle 20		synonymous
+3068	3208	PB1	788	G	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+3090	3230	PB1	810	A	G	5	Domestic cattle	Domestic cattle 5		synonymous
+3102	3242	PB1	822	A	G	3	Domestic cattle	Domestic cattle 3		synonymous
+3108	3248	PB1	828	T	C	2	Domestic cat	Domestic cat 2	9	synonymous
+3120	3260	PB1	840	C	A	2	Domestic cattle	Domestic cattle 2		synonymous
+3204	3344	PB1	924	A	G	2	Domestic cat	Domestic cat 2	6	synonymous
+3225	3365	PB1	945	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+3229	3369	PB1	949	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+3234	3374	PB1	954	T	C	8	Domestic cattle	Domestic cattle 8		synonymous
+3255	3395	PB1	975	A	G	7	Domestic cattle	Domestic cattle 7		non-synonymous
+3267	3407	PB1	987	A	C	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	non-synonymous
+3373	3513	PB1	1093	C	A	4	Domestic poultry	Domestic poultry 4		synonymous
+3430	3570	PB1	1150	T	C	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	non-synonymous
+3480	3620	PB1	1200	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+3586	3726	PB1	1306	T	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+3744	3884	PB1	1464	A	G	6	Domestic cattle	Domestic cattle 6		synonymous
+3840	3980	PB1	1560	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+3843	3983	PB1	1563	A	T	3	Domestic cattle	Domestic cattle 2; Domestic cat 1	4	synonymous
+3858	3998	PB1	1578	A	G	4	Domestic cattle	Domestic cattle 4		synonymous
+3966	4106	PB1	1686	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+4008	4148	PB1	1728	G	A	16	Domestic cattle	Domestic cattle 16		synonymous
+4013	4153	PB1	1733	A	G	6	Domestic cattle	Domestic cattle 6		non-synonymous
+4044	4184	PB1	1764	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+4149	4289	PB1	1869	G	A	2	Domestic cat	Domestic cat 2	9	synonymous
+4167	4307	PB1	1887	T	C	4	Domestic cattle	Domestic cattle 4		synonymous
+4314	4454	PB1	2034	C	T	2	Domestic cat	Domestic cat 2	3; 5	synonymous
+4398	4538	PB1	2118	G	A	4	Domestic cattle	Domestic cattle 4		synonymous
+4567	4847	PA	13	G	A	4	Domestic poultry	Domestic poultry 4		non-synonymous
+4591	4871	PA	37	A	G	26	Domestic cattle	Domestic cattle 25; Domestic cat 1	1	non-synonymous
+4610	4890	PA	56	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+4629	4909	PA	75	G	A	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	synonymous
+4640	4920	PA	86	A	G	6	Domestic cattle	Domestic cattle 6		non-synonymous
+4644	4924	PA	90	C	T	6	Domestic cattle	Domestic cattle 6		synonymous
+4657	4937	PA	103	T	C	4	Domestic cat	Domestic cat 4	3; 5; 6	non-synonymous
+4662	4942	PA	108	C	A	3	Domestic cattle	Domestic cattle 3		synonymous
+4671	4951	PA	117	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+4684	4964	PA	130	G	A	7	Domestic cattle	Domestic cattle 7		non-synonymous
+4698	4978	PA	144	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+4704	4984	PA	150	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+4725	5005	PA	171	A	G	4	Domestic poultry	Domestic poultry 4		synonymous
+4755	5035	PA	201	T	C	22	Domestic cattle	Domestic cattle 22		synonymous
+4756	5036	PA	202	C	T	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+4770	5050	PA	216	G	A	6	Domestic cattle	Domestic cattle 6		synonymous
+4849	5129	PA	295	G	A	2	Domestic cat	Domestic cat 2	3; 5	non-synonymous
+4857	5137	PA	303	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+4890	5170	PA	336	C	T	6	Domestic cattle	Domestic cattle 6		synonymous
+4981	5261	PA	427	A	G	4	Wild mammal	Wild mammal 4		non-synonymous
+5028	5308	PA	474	G	A	4	Domestic cattle	Domestic cattle 4		synonymous
+5157	5437	PA	603	T	C	11	Domestic cattle	Domestic cattle 11		synonymous
+5211	5491	PA	657	T	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+5283	5563	PA	729	G	A,T	2	Domestic cattle	Domestic cattle 2		non-synonymous
+5349	5629	PA	795	A	G	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	synonymous
+5376	5656	PA	822	T	C	4	Domestic cattle	Domestic cattle 4		synonymous
+5424	5704	PA	870	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+5535	5815	PA	981	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+5621	5901	PA	1067	A	G	10	Domestic cattle	Domestic cattle 10		non-synonymous
+5640	5920	PA	1086	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+5745	6025	PA	1191	A	G	16	Domestic cattle	Domestic cattle 16		synonymous
+5750	6030	PA	1196	A	G	38	Domestic cattle	Domestic cattle 34; Domestic poultry 4		non-synonymous
+5848	6128	PA	1294	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+5979	6259	PA	1425	A	T	5	Domestic cattle	Domestic cattle 5		synonymous
+6044	6324	PA	1490	G	A	26	Domestic cattle	Domestic cattle 24; Domestic cat 1; Wild bird 1	1	non-synonymous
+6081	6361	PA	1527	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+6170	6450	PA	1616	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+6210	6490	PA	1656	T	C	15	Domestic cattle	Domestic cattle 15		synonymous
+6222	6502	PA	1668	A	G	23	Domestic cattle	Domestic cattle 23		synonymous
+6543	6823	PA	1989	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+6618	6898	PA	2064	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+6642	6922	PA	2088	C	T	2	Domestic poultry	Domestic poultry 2		synonymous
+6700	6980	PA	2146	A	G	4	Domestic cattle	Domestic cattle 4		non-synonymous
+6709	7129	HA	4	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+6849	7269	HA	144	A	C	4	Domestic cattle	Domestic cattle 4		synonymous
+6852	7272	HA	147	G	A	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	synonymous
+6939	7359	HA	234	C	T	3	Domestic cattle	Domestic cattle 2; Wild bird 1		synonymous
+7016	7436	HA	311	A	G	10	Pet food chicken	Pet food chicken 7; Domestic cat 2; Domestic cattle 1	9	non-synonymous
+7062	7482	HA	357	C	T	26	Domestic cattle	Domestic cattle 21; Domestic cat 5	3; 4; 5; 6	synonymous
+7098	7518	HA	393	G	A	11	Domestic cattle	Domestic cattle 11		synonymous
+7132	7552	HA	427	A	G	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	non-synonymous
+7139	7559	HA	434	T	C,G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+7167	7587	HA	462	G	A	6	Domestic cattle	Domestic cattle 6		synonymous
+7170	7590	HA	465	G	A	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+7284	7704	HA	579	G	A	2	Domestic cat	Domestic cat 2	9	synonymous
+7290	7710	HA	585	T	C	6	Domestic cattle	Domestic cattle 6		synonymous
+7380	7800	HA	675	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+7482	7902	HA	777	T	C	2	Domestic poultry	Domestic poultry 2		synonymous
+7539	7959	HA	834	G	A	2	Wild mammal	Wild mammal 2		synonymous
+7712	8132	HA	1007	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+7818	8238	HA	1113	T	C	3	Domestic cattle	Domestic cattle 3		synonymous
+7848	8268	HA	1143	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+7878	8298	HA	1173	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+7974	8394	HA	1269	G	A	4	Domestic cat	Domestic cat 4	3; 5; 6	synonymous
+7980	8400	HA	1275	A	G	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+8019	8439	HA	1314	A	C	26	Domestic cattle	Domestic cattle 24; Domestic cat 1; Wild bird 1	1	synonymous
+8035	8455	HA	1330	C	T	3	Domestic cattle	Domestic cattle 3		synonymous
+8124	8544	HA	1419	T	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+8181	8601	HA	1476	A	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+8257	8677	HA	1552	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+8265	8685	HA	1560	A	G	6	Domestic cattle	Domestic cattle 6		synonymous
+8281	8701	HA	1576	G	A	4	Domestic poultry	Domestic poultry 4		non-synonymous
+8288	8708	HA	1583	C	T	2	Domestic cattle	Domestic cattle 2		non-synonymous
+8304	8724	HA	1599	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+8320	8740	HA	1615	G	A	4	Domestic cattle	Domestic cattle 4		non-synonymous
+8346	8766	HA	1641	G	T	2	Domestic cattle	Domestic cattle 2		non-synonymous
+8376	8796	HA	1671	C	G,T	3	Domestic cattle	Domestic cattle 3		synonymous
+8509	9069	NP	100	G	A	4	Domestic cattle	Domestic cattle 4		non-synonymous
+8565	9125	NP	156	C	A	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	non-synonymous
+8568	9128	NP	159	A	G	3	Domestic cattle	Domestic cattle 3		synonymous
+8596	9156	NP	187	A	G	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+8597	9157	NP	188	T	C	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		non-synonymous
+8616	9176	NP	207	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+8722	9282	NP	313	A	G	8	Domestic poultry	Domestic poultry 8		non-synonymous
+8764	9324	NP	355	A	G	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+8787	9347	NP	378	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+8815	9375	NP	406	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+8874	9434	NP	465	G	A	3	Domestic cattle	Domestic cattle 3		synonymous
+8907	9467	NP	498	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+8940	9500	NP	531	G	A	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	synonymous
+8964	9524	NP	555	A	G	4	Domestic cattle	Domestic cattle 4		synonymous
+8994	9554	NP	585	A	G	7	Wild mammal	Wild mammal 5; Domestic cat 2	7; 8	synonymous
+9009	9569	NP	600	A	G	33	Domestic poultry	Domestic poultry 28; Domestic cattle 4; Wild bird 1		synonymous
+9171	9731	NP	762	G	A	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+9180	9740	NP	771	C	T	2	Domestic cattle	Domestic cattle 2		synonymous
+9201	9761	NP	792	C	T	4	Domestic poultry	Domestic poultry 4		synonymous
+9210	9770	NP	801	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+9213	9773	NP	804	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+9216	9776	NP	807	A	T	2	Domestic cattle	Domestic cattle 2		synonymous
+9228	9788	NP	819	G	A	3	Domestic cattle	Domestic cattle 3		synonymous
+9279	9839	NP	870	C	T	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+9396	9956	NP	987	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+9423	9983	NP	1014	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+9468	10028	NP	1059	C	T	20	Domestic cattle	Domestic cattle 20		synonymous
+9501	10061	NP	1092	G	A	10	Pet food chicken	Pet food chicken 7; Domestic cat 2; Domestic cattle 1	9	synonymous
+9574	10134	NP	1165	A	C	2	Domestic cattle	Domestic cattle 2		synonymous
+9591	10151	NP	1182	A	G	8	Domestic cattle	Domestic cattle 8		synonymous
+9640	10200	NP	1231	A	G	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		non-synonymous
+9723	10283	NP	1314	A	G	3	Domestic cattle	Domestic cattle 3		synonymous
+9775	10335	NP	1366	G	T	2	Domestic poultry	Domestic poultry 2		non-synonymous
+9786	10346	NP	1377	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+9832	10392	NP	1423	A	G	12	Domestic cattle	Domestic cattle 12		non-synonymous
+9852	10412	NP	1443	G	A	7	Domestic cattle	Domestic cattle 7		non-synonymous
+9920	10620	NA	14	A	G	4	Domestic poultry	Domestic poultry 4		non-synonymous
+9930	10630	NA	24	A	G	17	Domestic cattle	Domestic cattle 17		synonymous
+10019	10719	NA	113	T	C	2	Domestic cattle	Domestic cattle 2		non-synonymous
+10038	10738	NA	132	C	T	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		synonymous
+10063	10763	NA	157	A	G	3	Domestic poultry	Domestic poultry 3		non-synonymous
+10082	10782	NA	176	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+10118	10818	NA	212	G	A	26	Domestic cattle	Domestic cattle 24; Domestic cat 1; Wild bird 1	1	non-synonymous
+10161	10861	NA	255	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+10194	10894	NA	288	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+10233	10933	NA	327	G	T	2	Domestic cat	Domestic cat 2	9	synonymous
+10413	11113	NA	507	G	A	24	Domestic cattle	Domestic cattle 23; Domestic cat 1	1	synonymous
+10477	11177	NA	571	T	C	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+10545	11245	NA	639	G	A	11	Domestic cattle	Domestic cattle 11		synonymous
+10574	11274	NA	668	T	C,G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+10593	11293	NA	687	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+10701	11401	NA	795	A	G	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	non-synonymous
+10768	11468	NA	862	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+10812	11512	NA	906	G	A	28	Domestic cattle	Domestic cattle 23; Domestic cat 5	3; 4; 5; 6	synonymous
+11091	11791	NA	1185	A	G	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	synonymous
+11101	11801	NA	1195	T	C	3	Domestic cattle	Domestic cattle 3		non-synonymous
+11209	11909	NA	1303	A	G	2	Domestic cattle	Domestic cattle 2		non-synonymous
+11267	11967	NA	1361	G	A	2	Domestic cattle	Domestic cattle 2		non-synonymous
+11325	12165	M	9	T	C	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	synonymous
+11430	12270	M	114	T	C	2	Domestic cattle	Domestic cattle 2		synonymous
+11487	12327	M	171	G	A	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	synonymous
+11496	12336	M	180	G	A	28	Domestic cattle	Domestic cattle 23; Domestic cat 5	3; 4; 5; 6	synonymous
+11561	12401	M	245	G	A	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+11658	12498	M	342	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+11877	12717	M	561	G	A	10	Wild mammal	Wild mammal 8; Domestic cat 2	7; 8	synonymous
+11967	12807	M	651	G	A	4	Domestic cattle	Domestic cattle 4		synonymous
+12185	13025	M	869	G	A	2	Several hosts	Domestic cattle 1; Domestic poultry 1		non-coding
+12188	13028	M	872	G	T	3	Domestic cattle	Domestic cattle 2; Domestic cat 1	4	non-coding
+12235	13075	M	919	G	A	2	Domestic cattle	Domestic cattle 2		non-coding
+12318	13298	NS	20	T	C	4	Domestic cattle	Domestic cattle 3; Wild bird 1		non-synonymous
+12337	13317	NS	39	C	T	2	Several hosts	Domestic cattle 1; Domestic poultry 1		synonymous
+12360	13340	NS	62	A	G	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	non-synonymous
+12376	13356	NS	78	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+12454	13434	NS	156	G	A	2	Domestic cattle	Domestic cattle 2		synonymous
+12464	13444	NS	166	A	G	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	non-synonymous
+12472	13452	NS	174	T	C	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		synonymous
+12497	13477	NS	199	A	G	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	9	non-synonymous
+12528	13508	NS	230	T	G	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	non-synonymous
+12538	13518	NS	240	C	T	57	Several hosts	Domestic cattle 36; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+12561	13541	NS	263	G	A	4	Domestic cattle	Domestic cattle 4		non-synonymous
+12599	13579	NS	301	G	A	4	Domestic cattle	Domestic cattle 4		non-synonymous
+12709	13689	NS	411	C	A	5	Wild mammal	Wild mammal 5		synonymous
+12739	13719	NS	441	T	C	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	1; 7; 8; 9	synonymous
+12787	13767	NS	489	A	G	126	Several hosts	Domestic cattle 72; Domestic poultry 32; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 2	1; 7; 8; 9	synonymous
+12850	13830	NS	552	A	G	2	Domestic cattle	Domestic cattle 2		synonymous
+12957	13937	NS	659	G	A	2	Domestic cattle	Domestic cattle 2		non-synonymous
+12983	13963	NS	685	G	A	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	1	non-synonymous
+13097	14077	NS	799	G	A	3	Domestic cattle	Domestic cattle 3		non-coding

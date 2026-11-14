@@ -1,0 +1,75 @@
+segment	gene	codon	change	genome_x	carriers	host	carrier_hosts	clusters	cat_cases
+PB2	PB2	249	G249E	746	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	A,B	1; 7; 8; 9
+NS	NS1	21	Q21R	13340	45	Several hosts	Domestic cattle 24; Wild mammal 8; Pet food chicken 7; Domestic cat 5; Wild bird 1	A,B	1; 7; 8; 9
+PA	PA	399	E399G	6030	38	Domestic cattle	Domestic cattle 34; Domestic poultry 4		
+PB1	PB1	171	V171A	2932	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		
+NP	NP	63	I63T	9157	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		
+NP	NP	411	T411A	10201	30	Domestic poultry	Domestic poultry 28; Domestic cattle 1; Wild bird 1		
+PA	PA	13	I13V	4872	26	Domestic cattle	Domestic cattle 25; Domestic cat 1	A	1
+PA	PA	497	R497K	6324	26	Domestic cattle	Domestic cattle 24; Domestic cat 1; Wild bird 1	A	1
+NA	NA	71	S71N	10818	26	Domestic cattle	Domestic cattle 24; Domestic cat 1; Wild bird 1	A	1
+PB1	PB1	384	S384P	3571	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	A	1
+NS	NS1	56	T56A	13445	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	A	1
+NS	NS1	77	L77R	13508	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	A	1
+NS	NS1	229	E229K	13964	25	Domestic cattle	Domestic cattle 24; Domestic cat 1	A	1
+PB2	PB2	740	D740N	2219	20	Domestic cattle	Domestic cattle 20		
+PB1	PB1	114	V114I	2761	20	Domestic cattle	Domestic cattle 20		
+PB1	PB1	123	T123A	2788	12	Domestic cattle	Domestic cattle 12		
+NP	NP	475	I475V	10393	12	Domestic cattle	Domestic cattle 12		
+PB2	PB2	451	I451T	1352	10	Wild mammal	Wild mammal 8; Domestic cat 2	B	7; 8
+PB1	PB1	329	Q329H	3406	10	Wild mammal	Wild mammal 8; Domestic cat 2	B	7; 8
+PA	PA	356	K356R	5901	10	Domestic cattle	Domestic cattle 10		
+HA	HA	104	D104G	7436	10	Pet food chicken	Pet food chicken 7; Domestic cat 2; Domestic cattle 1	B	9
+HA	HA	143	T143A	7553	10	Wild mammal	Wild mammal 8; Domestic cat 2	B	7; 8
+NP	NP	52	H52Q	9124	10	Wild mammal	Wild mammal 8; Domestic cat 2	B	7; 8
+PB2	PB2	62	R62Q	185	9	Domestic cattle	Domestic cattle 9		
+PB2	PB2	670	K670R	2009	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+PA	PA	68	P68S	5037	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+PA	PA	432	V432I	6129	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+HA	HA	2	E2K	7130	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+HA	HA	336	S336N	8132	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+NP	NP	63	I63V	9157	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+NP	NP	119	I119V	9325	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+M	M1	82	S82N	12401	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+NS	NS1	67	R67G	13478	9	Pet food chicken	Pet food chicken 7; Domestic cat 2	B	9
+NP	NP	105	M105V	9283	8	Domestic poultry	Domestic poultry 8		
+PB1	PB1	325	I325M	3394	7	Domestic cattle	Domestic cattle 7		
+PA	PA	44	V44I	4965	7	Domestic cattle	Domestic cattle 7		
+NP	NP	481	M481I	10411	7	Domestic cattle	Domestic cattle 7		
+PB1	PB1	578	K578R	4153	6	Domestic cattle	Domestic cattle 6		
+PA	PA	29	K29R	4920	6	Domestic cattle	Domestic cattle 6		
+PB2	PB2	65	E65G	194	5	Wild mammal	Wild mammal 5		
+PB2	PB2	483	M483T	1448	5	Domestic cattle	Domestic cattle 5		
+PB1	PB1	168	K168R	2923	5	Domestic cattle	Domestic cattle 5		
+PB2	PB2	80	K80R	239	4	Domestic cattle	Domestic cattle 4		
+PB2	PB2	589	R589K	1766	4	Domestic cattle	Domestic cattle 4		
+PA	PA	5	V5M	4848	4	Domestic poultry	Domestic poultry 4		
+PA	PA	35	F35L	4938	4	Domestic cat	Domestic cat 4	A	3; 5; 6
+PA	PA	143	T143A	5262	4	Wild mammal	Wild mammal 4		
+PA	PA	716	K716E	6981	4	Domestic cattle	Domestic cattle 4		
+HA	HA	526	V526I	8702	4	Domestic poultry	Domestic poultry 4		
+HA	HA	539	A539T	8741	4	Domestic cattle	Domestic cattle 4		
+NP	NP	34	G34S	9070	4	Domestic cattle	Domestic cattle 4		
+NA	NA	5	Q5R	10620	4	Domestic poultry	Domestic poultry 4		
+NS	NS1	7	L7S	13298	4	Domestic cattle	Domestic cattle 3; Wild bird 1		
+NS	NS1	88	R88H	13541	4	Domestic cattle	Domestic cattle 4		
+NS	NS1	101	D101N	13580	4	Domestic cattle	Domestic cattle 4		
+NA	NA	53	I53V	10764	3	Domestic poultry	Domestic poultry 3		
+NA	NA	399	W399R	11802	3	Domestic cattle	Domestic cattle 3		
+PB1	PB1	263	C263S	3208	2	Domestic cattle	Domestic cattle 2		
+PB1	PB1	317	M317V	3370	2	Domestic cattle	Domestic cattle 2		
+PB1	PB1	436	Y436H	3727	2	Domestic cattle	Domestic cattle 2		
+PA	PA	19	K19R	4890	2	Domestic cattle	Domestic cattle 2		
+PA	PA	99	G99R	5130	2	Domestic cat	Domestic cat 2	A	3; 5
+PA	PA	539	K539R	6450	2	Domestic cattle	Domestic cattle 2		
+HA	HA	492	E492D	8600	2	Domestic cattle	Domestic cattle 2		
+HA	HA	518	I518V	8678	2	Domestic cattle	Domestic cattle 2		
+HA	HA	528	T528I	8708	2	Domestic cattle	Domestic cattle 2		
+HA	HA	547	M547I	8765	2	Domestic cattle	Domestic cattle 2		
+NP	NP	456	V456L	10336	2	Domestic poultry	Domestic poultry 2		
+NA	NA	38	I38T	10719	2	Domestic cattle	Domestic cattle 2		
+NA	NA	59	N59S	10782	2	Domestic cattle	Domestic cattle 2		
+NA	NA	288	I288V	11469	2	Domestic cattle	Domestic cattle 2		
+NA	NA	435	T435A	11910	2	Domestic cattle	Domestic cattle 2		
+NA	NA	454	G454D	11967	2	Domestic cattle	Domestic cattle 2		
+NS	NS1	220	R220Q	13937	2	Domestic cattle	Domestic cattle 2		
